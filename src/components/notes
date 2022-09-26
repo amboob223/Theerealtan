@@ -1,0 +1,28 @@
+-main thing to remember we got to go to sheet.best or sheet db to make the data from js and the google sheet interact and 
+-and we git to make an object that can go in the request and reinitialize the state  the object that we make needs to get from the state of each input object
+
+
+
+things we signed up for 
+sheets.best that lets you make the sheet a database api a
+and font awsome for the icons and google fonts for the letters
+
+
+
+tommorow w
+we got to style the page add the tables and figure how to put on app store
+
+Saturday
+we got to style the rest of the app and put in the logo and fix the drop down shit and see how we will monetize and put a schedule together for shooting and get all the scripts together
+
+
+       const [idx,setIdx] = useState(0)
+  
+       
+        function moves(){
+          setIdx(idx +1)
+          array[idx]
+
+        }
+
+          setTimeout(moves,60000)

@@ -1,0 +1,65 @@
+import React from 'react'
+import {Link} from "react-router-dom";
+import {useState} from "react";
+import Dropdown from './Dropdown';
+
+function Navbar() {
+
+    //we have to make state here to keep track of the dropdown
+    const [dropdown,setDropdown] = useState(false)
+
+    //we now make the state methods that corresppond to some type of event
+    function onMouseOver(){
+        setDropdown(true)
+    }//when this is true we render the dropdown component
+
+    const mousedip =() =>{
+        setDropdown(false)
+    }
+
+  return (
+    <nav className="navc">
+        <ul className="nav">
+            <li>
+                <Link
+                to="/"
+                className='navlink'
+                >
+                    Home
+                </Link>
+            </li>
+            <li>
+                <Link
+                    to="/about"
+                    className="navlink"
+                >
+                About    
+                </Link>
+            </li>
+            <li
+            onMouseLeave={mousedip}>
+                <Link
+                    
+                    className="navlink"
+                    onClick={onMouseOver}
+                >
+                Language
+                </Link>
+                { dropdown && <Dropdown/>} 
+                {/* // this means if the state is true then do this here */}
+            </li>
+
+            <li>
+                <Link
+                    to="/contact"
+                    className="navlink"
+                >
+                Contacts    
+                </Link>
+            </li>
+        </ul>
+    </nav>
+  )
+}
+
+export default Navbar;

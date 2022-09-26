@@ -1,25 +1,67 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css"
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Wolof from "./components/Wolof";
+import Scroller from './components/Scroller';
+import Krio from "./components/Krio";
+import Yoruba from './components/Yoruba';
+import Geechie from './components/Geechie';
+import Kreyol from "./components/Kreyol";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Navbar/>
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/wolof" element = {<Wolof/>}/>
+            <Route path="/geechie" element = {<Geechie/>}/>
+            <Route path="/kreyol" element={<Kreyol/>}/>
+            <Route path="/yoruba" element={<Yoruba/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/krio" element={<Krio/>}/>
+
+        </Routes>
+      </Router>
+
     </div>
-  );
+    )
+
 }
 
+function Home(){
+  return(<>
+  <div className='table'>
+
+    <table>
+      <td>
+        <tr>
+         <h1> Welcome to the wocktan</h1> 
+        </tr>
+        <tr>
+          <h3>wocktan is the worlds most imersive way to learn African languages by...</h3>
+         
+          <ul>
+            <li>Video lessons</li>
+            <li>weekly quizes</li>
+            <li>weekly Vocab and Grammar</li>
+            <li>responsive speakers(wockers)</li>
+            <li>teaching and become a wocker.</li>
+          </ul>
+        </tr>
+      </td>
+      <td>
+        <tr id="scrolhead"><h2>Choose a language.</h2></tr>
+        <tr><Scroller/></tr>
+      </td>
+    </table>
+  </div>
+   
+  </>)
+}
 export default App;
