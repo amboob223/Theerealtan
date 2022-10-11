@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom";
 import {useState} from "react";
 import Dropdown from './Dropdown';
-
+import lg from "../images/wocktan.png"
 function Navbar() {
 
     //we have to make state here to keep track of the dropdown
@@ -19,6 +19,7 @@ function Navbar() {
 
   return (
     <nav className="navc">
+        <img src={lg} alt="logo" className="navpic"/>
         <ul className="nav">
             <li>
                 <Link

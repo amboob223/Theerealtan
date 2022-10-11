@@ -44,14 +44,14 @@ function Home(){
          <h1> Welcome to the wocktan</h1> 
         </tr>
         <tr>
-          <h3>wocktan is the worlds most imersive way to learn African languages by...</h3>
+          <h3>Wocktan is the worlds most imersive way to learn African languages by...</h3>
          
           <ul>
-            <li>Video lessons</li>
-            <li>weekly quizes</li>
-            <li>weekly Vocab and Grammar</li>
-            <li>responsive speakers(wockers)</li>
-            <li>teaching and become a wocker.</li>
+            <li>Video Lessons</li>
+            <li>Weekly Quizes</li>
+            <li>Weekly Vocab and Grammar</li>
+            <li>Responsive speakers(wockers)</li>
+            <li>Teaching and become a wocker.</li>
           </ul>
         </tr>
       </td>

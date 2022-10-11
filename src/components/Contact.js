@@ -54,7 +54,7 @@ function Contact() {
       }
     
      ) 
-      alert("this was sucessful")
+      alert("this was sucessful. We will contact You in the next three business days with info on Becoming or scheduling a Wocker")
    } // here is where we will be making the call to the google sheets
 
 
