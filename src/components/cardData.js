@@ -3,9 +3,9 @@
 import gh from "../images/geechie.jpg"
 import kr from "../images/kreyol.jpg"
 import ki from "../images/Krio.jpg"
-import ti from "../images/twi.jpg"
-import wf from "../images/wolof.jpg"
 
+import wf from "../images/wolof.jpg"
+import yr from "../images/yoruba.jpg"
 const cardData = [
     {
         name:"Geechie",
@@ -31,11 +31,11 @@ const cardData = [
 
     },
     {
-        name:"Twi",
-        path:"/twi",
-        img:ti,
+        name:"Yoruba",
+        path:"/yoruba",
+        img:yr,
         cname:"carditem",
-        des:"this is the language of the Ashanti People"
+        des:"this is the language of the Yoruba People"
     },
     {
         name:"Wolof",

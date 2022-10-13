@@ -103,6 +103,8 @@ body{
 } 
 
 .scroll>button{
+  cursor: pointer;
+  margin-top: 2%;
   margin-left: 2%;
   border-radius: 12%;
   background-color:#FFDE59;;
@@ -164,3 +166,21 @@ button{
   background-color:#FFDE59;;
 }
 
+.bounce>td{
+  padding:1%;
+}
+
+.abtbtn{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.abtl{
+  text-decoration: none;
+  color:black;
+}
+
+.footer{
+  text-align: center;
+}

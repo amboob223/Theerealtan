@@ -38,7 +38,7 @@ function Scroller(){
         </div>
        
         <div className="scroll">
-                    <button onClick={up}>next</button>
+         <button onClick={up}>next</button>
         <button onClick={down}>down</button>
         </div>
 

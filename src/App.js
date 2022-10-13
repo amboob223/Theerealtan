@@ -10,12 +10,14 @@ import Krio from "./components/Krio";
 import Yoruba from './components/Yoruba';
 import Geechie from './components/Geechie';
 import Kreyol from "./components/Kreyol";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <div>
       <Router>
         <Navbar/>
+        
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
@@ -28,7 +30,7 @@ function App() {
 
         </Routes>
       </Router>
-
+<Footer/>
     </div>
     )
 
@@ -38,7 +40,7 @@ function Home(){
   return(<>
   <div className='table'>
 
-    <table>
+    <table class="bounce">
       <td>
         <tr>
          <h1> Welcome to the wocktan</h1> 
