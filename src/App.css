@@ -75,7 +75,7 @@ body{
 .navc{
   margin:5%;
   background-color:#4C7031;
-  justify-content:center;
+  justify-content:space-evenly;
   position: static;
   display:flex;
   ;

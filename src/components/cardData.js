@@ -8,6 +8,14 @@ import wf from "../images/wolof.jpg"
 import yr from "../images/yoruba.jpg"
 const cardData = [
     {
+        name:"Krio",
+        path:"/krio",
+        img:ki,
+        cname:"carditem",
+        des:"this is the language of the people of sierra leone"
+
+    },
+    {
         name:"Geechie",
         path:"/geechie",
         img:gh,
@@ -20,14 +28,6 @@ const cardData = [
         img:kr,
         cname:"carditem",
         des:"this is the language of the haitian people"
-
-    },
-    {
-        name:"Krio",
-        path:"/krio",
-        img:ki,
-        cname:"carditem",
-        des:"this is the language of the people of sierra leone"
 
     },
     {
