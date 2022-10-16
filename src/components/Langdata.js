@@ -2,27 +2,46 @@ const Langdata = [
     {
         title:"Krio",
         video:"https://www.youtube.com/watch?v=pPLIP9Ftfv4",
-        tips:"its basically Broken English so start with english and break it",
-        grammar:{
-            Me:"I",
-            you:"you",
-            we:"we",
-            them:"den",
-            yall:"una",
-            am:"de"
-        },
-        vocab:{
-            Hello:"ow de body",
-            Goodbye:"goodbye",
-            Tomorrow:"tomahrah",
-            Thanks:"tankee",
-            yes:"yes",
-            No:"No ooo",
-            Boy:"Bor-bor",
-            Girl:"Ti-Ti",
-            Man:"man",
-            Woman:"ouman"
-        }
+        tips:"its basically Broken English so start with english and break it",     
+          week1:{ grammar:{
+                    Me:"I",
+                    you:"you",
+                    we:"we",
+                    them:"den",
+                    yall:"una",
+                    am:"de"
+                },
+                vocab:{
+                    Hello:"ow de body",
+                    Goodbye:"goodbye",
+                    Tomorrow:"tomahrah",
+                    Thanks:"tankee",
+                    yes:"yes",
+                    No:"No ooo",
+                    Boy:"Bor-bor",
+                    Girl:"Ti-Ti",
+                    Man:"man",
+                    Woman:"ouman"
+                }},
+            week2:{
+                grammar:{
+                    tips:"here is where we wirte the stuff"}
+                    
+                ,
+                vocab:{
+                    stand:"Tinapp",
+                    fall:"fodom",
+                    what:"wetein",
+                    are:"de",
+                    child:"pekin",
+                    car:"motocah",
+                    tired:"tiyah",
+                    crazy:"kraise",
+                    have:"get",
+                    fight:"fet"
+
+                }
+            }
     },
     {
         title:"Wolof",
