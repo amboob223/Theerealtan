@@ -4,7 +4,7 @@ import "../App.css";
 function Footer(){
     return(<div class="footer">
         <h3>
-            this App was made by Medumeta.
+            this App was made by Medumeta.com
         </h3>
     </div>)
 }

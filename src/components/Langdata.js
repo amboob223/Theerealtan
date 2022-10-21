@@ -21,16 +21,9 @@ const Langdata = [
                     Boy:"Bor-bor",
                     Girl:"Ti-Ti",
                     Man:"man",
-                    Woman:"ouman"
-                }},
-            week2:{
-                grammar:{
-                    tips:"here is where we wirte the stuff"}
-                    
-                ,
-                vocab:{
+                    Woman:"ouman",
                     stand:"Tinapp",
-                    fall:"fodom",
+                    disrespect:"fityai",
                     what:"wetein",
                     are:"de",
                     child:"pekin",
@@ -39,9 +32,120 @@ const Langdata = [
                     crazy:"kraise",
                     have:"get",
                     fight:"fet"
+                }},
+            week2:{
+                grammar:{
+                    tips:"When speaking Krio its broken english so speak english and start breaking it"}
+                ,
+                vocab:{
+                    theif:"tif",
+                    pepper:"pepe`",
+                    expensive:"deeyah",
+                    careful:"saful",
+                    incrementally:"small small",
+                    hot:"wam",
+                    tall:"langa",
+                    knife:"nef",
+                    ground:"grohn",
+                    rice:"res",
+                    rest:"blo",
+                    rat:"aratta",
+                    commoner:"mortaman",
+                    air:"briz",
+                    sit:"sidhom",
+                    getup:"grap",
+                    everyone:"allman",
+                    bow:"butu",
+                    water:"wata",
+                    salt:"sol"
 
                 }
+            },
+      week3:{
+                vocab:{
+                    come:"kam",
+                    time:"tem",
+                    when:"wea",
+                    there:"dande",
+                    stop:"lef",
+                    thanks:"tankee",
+                    think:"tink",
+                    thing:"tin",
+                    simliar:"tan",
+                    ugly:"worwor",
+                    walk:"waka",
+                    Can:"kin",
+                    this:"dis",
+                    self:"sef",
+                    behind:"beyeen",
+                    afraid:"fraid",
+                    give:"gi",
+                    lift:"ace",
+                    fall:"fodom",
+                    ear:"ace"
+                },
+            
+                grammar:{
+                    
+                    conjugation:"try making some sentences using the a noun and a verb."
+                }
+            },
+        week4:{
+            vocab:{
+              leave:"lef",
+              stand:"tinapp",
+              agree:"gree",
+              matter:"matta",
+              fight:"fet",
+              work:"wok",
+              woke:"wake",
+              widthstand:"bear",
+              tired:"tiyah",
+              lend:"lent",
+              friend:"padee",
+              relative:"famble",
+              throw:"troway",
+              looklike:"fibah",
+              count:"cont",
+              much:"mos",
+              Dirty:"duhty",
+              hollar:"hallah",
+              depend:"abop"
+            },
+           grammar:{
+            negation:"jus put Nor before the verb",
+            futureNO:"(no go) before the verb"
+           }
+        },
+        week5:{
+            vocab:{
+                which:"ouuse",
+                where:"ouuse si",
+                polite:"ajor",
+                Shoes:"krep",
+                nothing:"natin",
+                something:"sometin",
+                Annoy:"ambog",
+                outside:"na door or outsai",
+                head:"ed",
+                mouth:"mot",
+                please:"doyah",
+                braid:"plant",
+                door:"domot",
+                car:"motoka",
+                drunk:"chack",
+                enough:"ee du so",
+                happy:"gladi",
+                hurry:"make case"
+
+            },
+            grammar:{
+                pasttense:"(noun)be don (verb)",
+                presnttense:"(de) before verb",
+                futuretense:"(noun) go (verb)"
+
             }
+        }
     },
     {
         title:"Wolof",

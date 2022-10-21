@@ -18,12 +18,14 @@ function Language(props) {
       <h3>{props.tips}</h3> 
       </div>
       {/* the voca part */}
+
+
         <div className='main'>
-      <div className='content'>
+      <div className='contentt'>
 
         
           <div className='content'>
-            <h1>week 1 Vocab</h1>
+            <h1>{props.week} Vocab</h1>
          <div className='vocab'>
           
        {/* // all we need is a hash to be returned where that prop.vocab is but
@@ -49,7 +51,7 @@ function Language(props) {
  </div>
 
             <div className='content'>
-             <h1>week 1 Grammar </h1> 
+             <h1>{props.week}Grammar </h1> 
          <div className='vocab'>
           <ul>
             {Object.keys(props.grammar).map(function(key,i){return(
@@ -70,7 +72,7 @@ function Language(props) {
           </div>
   </div>  
     </div>
-      </div>   
+          </div>   
     </div>
   )
 }

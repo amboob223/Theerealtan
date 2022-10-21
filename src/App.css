@@ -146,13 +146,33 @@ body{
 }  
 .content{
   
-position: relative;  
+min-width:min-content;
   justify-content: center;
+  width:300px;
+  padding:2%;
+  position: relative;
+ 
 }  
+
+.contentt{
+  justify-content: center;
+  display: flex;
+  
+}
+
+.btnc{
+  justify-content: center;
+  display:flex;
+  position:static;
+}
 
 .main{
   justify-content: center;
   display: flex;
+  position: static;
+  
+  height:550px;
+  
 }  
 
 .comp{
