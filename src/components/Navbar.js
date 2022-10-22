@@ -45,6 +45,7 @@ function Navbar() {
                     onClick={onMouseOver}
                 >
                 Language
+                <i class="fa-solid fa-caret-down"></i>
                 </Link>
                 { dropdown && <Dropdown/>} 
                 {/* // this means if the state is true then do this here */}

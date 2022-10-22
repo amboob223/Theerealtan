@@ -151,25 +151,87 @@ const Langdata = [
         title:"Wolof",
         video:"https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips:"Ki rooted word is pertains to a person (ko ku) Li root pertains to things.(lo lou)",
-        grammar:{
-            Me:"man",
-            you:"yow",
-            we:"nun",
-            them:"nyun",
-            yall:"ngeen",
-            am:"gi"
+        
+        week1:  
+            {  
+                grammar:{
+                    Me:"man",
+                    you:"yow",
+                    we:"nun",
+                    them:"nyun",
+                    yall:"ngeen",
+                    am:"gi",
+                    Iam:"dama"
+                },
+                vocab:{
+                    Hello:"na nga def",
+                    Goodbye:"baxh na",
+                    Tomorrow:"Suba",
+                    Now:"Leegi",
+                    yes:"wow",
+                    No:"de`det",
+                    child:"xali",
+                    Thanks:"jerryjeff",
+                    Man:"Goor",
+                    Woman:"Jigean",
+                    hungry:"heef",
+                    thirsty:"mar",
+                    fasting:"koor",
+                    breakfast:"ndekki",
+                    lunch:"an",
+                    dinner:"rayair",
+                    plate:"pahlaht",
+                    spoon:"kuuduu",
+                    fork:"furset",
+                    knife:"pahkah"
+            }
+            },
+        week2:{
+            grammar:{
+                articles:"are used to say the",
+                li:"pertains to things",
+                ki:"pertains to people",
+                gi:"pertains to males",
+                ji:"pertains to women",
+                bi:"general things",
+                mi:"things in nature"
+            },
+            vocab:{
+                bottle:"buutell",
+                glass:"kass",
+                cup:"kopp",
+                bowl:"ndab",
+                soup:"supp",
+                water:"ndoh",
+                wine:"biin",
+                alcohol:"sangara",
+                tea:"attahyah",
+                chocolate:"sokola",
+                coffee:"kafe",
+                milk:"mew",
+                sauce:"neehx",
+                spice:"saf",
+                pepper:"poobar",
+                bread:"mburu",
+                cold:"tangi",
+                honey:"lem",
+                sugar:"suukar",
+                rice:"cheeb"
+            }
         },
+    week3:{
         vocab:{
-            Hello:"na nga def",
-        Goodbye:"baxh na",
-        Tomorrow:"Suba",
-        Now:"Leegi",
-        yes:"wow",
-        No:"de`det",
-        child:"xali",
-        Thanks:"jerryjeff",
-        Man:"Goor",
-        Woman:"Jigean"
+            name:"tudd",
+            how:"naan",
+            learn:"jang",
+
+            
+        },
+        grammar:{
+            negative:"add uma(personal),ul(if about a thing) or unu(plural) after verb",
+            doing:"the act of doing is expressed by adding ay to the noun like damay",
+            pasttense: "is achieved by adding woon to the verb"
+        }
     }
     },
     {
