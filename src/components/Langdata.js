@@ -314,114 +314,145 @@ const Langdata = [
         title: "Geechie",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "very similar to Krio in concept and even words",
-        week1:{
-        grammar: {
-            Me: "man",
-            you: "yow",
-            we: "nun",
-            them: "nyun",
-            yall: "ngeen",
-            am: "gi"
-        },
-        vocab: {
-            Hello: "ello",
-            Goodbye: "buhbye",
-            Tomorrow: "tomro",
-            Now: "Nah",
-            yes: "Yesuh",
-            No: "No",
-            Boy: "Boy",
-            Girl: "Gal",
-            Man: "Main",
-            Woman: "womain",
-            Grandpa:"grumpa",
-            Grandma:"granny",
-            there:"yonder"
-        }
+        week1: {
+            grammar: {
+                Me: "me",
+                you: "you",
+                we: "we",
+                them: "dem",
+                yall: "oounuh"
             },
-        week2:{
-            grammar:{
-                tips:"the langugage was mad by slaves who go the fu** on"
-            },
-            vocab:{
-                another:"anuhduh",
-                awnser:"ansuh",
-                after:"attuh",
-                ask:"ax",
-                each:"aruh",
-                barber:"baabuh",
-                badmouth:"bad mout",
-                braid:"baid",
-                bacon:"baiken",
-                abandon:"bandun",
-                born:"bawn",
-                without:"b'dout",
-                before:"b'fo",
-                behind:"b'hin",
-                behave:"b'habe",
-                very:"berry",
-                bend:"ben",
-                angry:"bex vex",
-                begin:"b'gin",
-                bigger:"bigguh"
+            vocab: {
+                Hello: "ello",
+                Goodbye: "buhbye",
+                Tomorrow: "tomro",
+                shirt: "shut",
+                No: "No",
+                Boy: "Boy",
+                Girl: "Gal",
+                Man: "Main",
+                Woman: "ooman",
+                Grandpa: "grumpa",
+                Grandma: "granny",
+                there: "yonder",
+                river: "ribbuh",
+                soft: "saaf",
+                sand: "san",
+                excuse: 'scuze',
+                short: "shawt",
+                shut: "shet"
             }
         },
-        week3:{
-            vocab:{
-                business:"biness",
-                better:"bettuh",
-                village:"billage",
-                was:"binnuh",
-                belong:"b'long",
-                both:"boff",
-                borrow:"borruh",
-                about:"bout",
-                break:"bruk",
-                brother:"bubbuh",
-                whiteperson:"buckruh",
-                corner:"cawnuh",
-                cost:"cawse",
-                deceitful:"ceitful",
-                china:"chany",
-                chew:"chaw",
-                child:"chillun",
-                stupid:"chupid",
-                cold:"col",
-                booty:"boonkey"
+        week2: {
+            grammar: {
+                tips: "the langugage was mad by slaves who go the fu** on"
             },
-            grammar:{
-                tips:"remeber gullah is broken english like krio"
+            vocab: {
+                another: "anuhduh",
+                awnser: "ansuh",
+                after: "attuh",
+                ask: "ax",
+                each: "aruh",
+                barber: "baabuh",
+                badmouth: "bad mout",
+                braid: "baid",
+                bacon: "baiken",
+                abandon: "bandun",
+                born: "bawn",
+                without: "b'dout",
+                before: "b'fo",
+                behind: "b'hin",
+                behave: "b'habe",
+                very: "berry",
+                bend: "ben",
+                angry: "bex vex",
+                begin: "b'gin",
+                bigger: "bigguh"
             }
         },
-        week4:{
-            vocab:{
-                deject:"cut'down",
-                cant:"cyan",
-                cast:"cyast",
-                that:"dat",
-                therefor:"deyfo'",
-                this:"dis",
-                thisHere:"dishyuh",
-                door:"doe",
-                dirt:"du't",
-                even:"eben",
-                in:"een",
-                succeed:"exceed",
-                advise:"edwise",
-                family:"fambly",
-                fire:"fiyah",
-                further:"fuhduh",
-                first:"fus",
-                give:"gibe",
-                against:"gense",
-                goingTO:"gwine"
-
+        week3: {
+            vocab: {
+                business: "biness",
+                better: "bettuh",
+                village: "billage",
+                was: "binnuh",
+                belong: "b'long",
+                both: "boff",
+                borrow: "borruh",
+                about: "bout",
+                break: "bruk",
+                brother: "bubbuh",
+                whiteperson: "buckruh",
+                corner: "cawnuh",
+                cost: "cawse",
+                deceitful: "ceitful",
+                china: "chany",
+                chew: "chaw",
+                child: "chillun",
+                stupid: "chupid",
+                cold: "col",
+                booty: "boonkey"
+            },
+            grammar: {
+                tips: "remeber gullah is broken english like krio"
+            }
+        },
+        week4: {
+            vocab: {
+                deject: "cut'down",
+                cant: "cyan",
+                cast: "cyast",
+                that: "dat",
+                therefor: "deyfo'",
+                this: "dis",
+                thisHere: "dishyuh",
+                door: "doe",
+                dirt: "du't",
+                even: "eben",
+                in: "een",
+                succeed: "exceed",
+                advise: "edwise",
+                family: "fambly",
+                fire: "fiyah",
+                further: "fuhduh",
+                first: "fus",
+                give: "gibe",
+                against: "gense",
+                goingTO: "gwine"
+            },
+            grammar: {
+                he: "e",
+                she: "e",
+                it: "e"
+            }
+        },
+        week5: {
+            vocab: {
+                heavy: "hebby",
+                hurt: "hu't",
+                reject: "ject",
+                just: "jis",
+                can: "kin",
+                leave: "lef",
+                lets: "leh",
+                religon: "lijun",
+                love: "lub",
+                morining: "mawnin",
+                remember: "membuh",
+                among: "mong",
+                aintIt: "enty",
+                eat: "nyam",
+                enough: "nuf",
+                over: "obuh",
+                provoke: "puhwoke",
+                squeeze: "queeze",
+                rather: "redduh",
+                explain: "resplain"
 
             },
-            grammar:{
-                he:"e",
-                she:"e",
-                it:"e"
+            grammar: {
+                tips: "you got to speak like old times",
+                facts: "geechie and krio have a lot if similar words"
             }
         }
     },
@@ -429,25 +460,174 @@ const Langdata = [
         title: "Yoruba",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "Listen to alot of Afrobeats",
-        grammar: {
-            Me: "man",
-            you: "yow",
-            we: "nun",
-            them: "nyun",
-            yall: "ngeen",
-            am: "gi"
+        week1: {
+            grammar: {
+                Me: "emi",
+                you: "iwo",
+                we: "awa",
+                them: "awon",
+                yall: "ngeen",
+                ours: "tiwa",
+                him: "oun",
+                us: "awa",
+                theirs: "tawon",
+                mine: "temi",
+                her: "toun",
+                your: "ire,iwo",
+                my: "temi"
+            },
+            vocab: {
+                Hello: "en-le",
+                Goodbye: "Odabo",
+                stop: "duro",
+                water: "oh-mi",
+                yes: "beni",
+                No: "rara",
+                Boy: "omokunrin",
+                Girl: "omobirin",
+                Man: "Okunrin",
+                Woman: "obinrin",
+                thankYou: "e shey",
+                please: "joewoe",
+                and: "ahti",
+                this: "ehyi",
+                bride: "yawo",
+                father: "baba",
+                mother: "iya",
+                house: "ile",
+                room: "iyara",
+                hand: "owo"
+
+            }
         },
-        vocab: {
-            Hello: "Ba wo ni",
-            Goodbye: "Odabo",
-            Tomorrow: "",
-            Now: "Nah",
-            yes: "Ya",
-            No: "Naw",
-            Boy: "Lilone",
-            Girl: "Liagi",
-            Man: "Oman",
-            Woman: "Ashawo"
+        week2: {
+            vocab: {
+                Spoke: "soro",
+                Wrote: "kowe",
+                Drove: "wa moto",
+                Loved: "feran",
+                Gave: "fun",
+                Smiled: "rerin",
+                Took: "mu",
+                past: "ikoja",
+                black: "dudu",
+                green: "alawo ewe",
+                red: "alawo efun",
+                big: "nla",
+                deep: "jin",
+                long: "gigun",
+                short: "kuru",
+                small: "kekere",
+                tall: "ga",
+                staright: "tooro",
+                fresh: "tutu",
+                spicy: "alata",
+            },
+            grammar: {
+                pastWe: "a (verb)",
+                pastI: "mo (verb)",
+                pastHe: "o (verb)",
+                futureI: "ma (verb)",
+                futureHE: "oma (verb)",
+                futureWE: "amaa (verb)",
+                presenttesnseHE: "oma n(verb)",
+
+
+            }
+        },
+        week3: {
+            vocab: {
+                sweet: "adun",
+                bad: 'ibaje',
+                clean: "mo",
+                dark: "okuku",
+                dry: "gbigbe",
+                easy: "irorun",
+                expensive: "owon",
+                empty: "korofo",
+                fast: "aawe",
+                full: "ekun",
+                good: "rere",
+                hard: "lile",
+                heavy: "wuwo",
+                cheap: "ponkulowo",
+                light: "fele",
+                new: "titun",
+                old: "arugbo",
+                powerful: "alagbara",
+                correct: "beeni",
+                soft: "ro",
+            },
+            grammar: {
+                plural: "to make plurar put awon before noun",
+                example: "awon eye = birds"
+
+            }
+        },
+        week4: {
+            vocab: {
+                wet: "tutu",
+                wrong: "beeko",
+                few: "die",
+                many: "pupo",
+                part: "ara",
+                some: "awon",
+                whole: "odidi",
+                back: "eyin",
+                eye: "oju",
+                ear: "eti",
+                face: "oju",
+                head: "ori",
+                breakfast: "onjne aaro",
+                difficult: "ole",
+                dirty: "idoti",
+                lunch: "onje osan",
+                meat: "eran",
+                meal: "onje",
+                dinner: "onje asale",
+                vegetables: "efo"
+            },
+            grammar: {
+                tips: "a way to help is listen to some popular afrobeat arist like burna boy or olamide they speak yoruba in there songs"
+            }
+        },
+        week5: {
+            vocab: {
+                dog: "aja",
+                lion: "kiniun",
+                monkey: "obo",
+                snakes: "awon ejo",
+                think: "ro",
+                know: "mo",
+                play: "sere",
+                see: "ri",
+                meditate: "Ronu",
+                find: "rihe",
+                enter: "wole",
+                want: "fe'",
+                eat: "jeyuun",
+                do: "she'",
+                come: "wa'",
+                sleep: "shu'n",
+                sell: "ta'",
+                cook: "shae'",
+                walk: "rin",
+                cry: "sunku'n"
+            },
+            grammar: {
+
+                imHungry: "e-bi-pa-mi",
+                delicious: "o-dun",
+                howAreYou: "ba-wo-ni",
+                noProblem: "kosi wahala",
+                excuseMe: "e jowo",
+                myNameIs: "orukoo mi ni",
+                goodMorning: "Ekaro",
+                goodAfternoon: "ekasan",
+                goodEvening: "ek'ale",
+                welcome: "ekabo",
+                iMeet: "mo padey"
+            }
         }
     },
     {
