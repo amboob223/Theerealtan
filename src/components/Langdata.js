@@ -314,6 +314,7 @@ const Langdata = [
         title: "Geechie",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "very similar to Krio in concept and even words",
+        week1:{
         grammar: {
             Me: "man",
             you: "yow",
@@ -330,9 +331,98 @@ const Langdata = [
             yes: "Yesuh",
             No: "No",
             Boy: "Boy",
-            Girl: "Ouman",
+            Girl: "Gal",
             Man: "Main",
-            Woman: "womain"
+            Woman: "womain",
+            Grandpa:"grumpa",
+            Grandma:"granny",
+            there:"yonder"
+        }
+            },
+        week2:{
+            grammar:{
+                tips:"the langugage was mad by slaves who go the fu** on"
+            },
+            vocab:{
+                another:"anuhduh",
+                awnser:"ansuh",
+                after:"attuh",
+                ask:"ax",
+                each:"aruh",
+                barber:"baabuh",
+                badmouth:"bad mout",
+                braid:"baid",
+                bacon:"baiken",
+                abandon:"bandun",
+                born:"bawn",
+                without:"b'dout",
+                before:"b'fo",
+                behind:"b'hin",
+                behave:"b'habe",
+                very:"berry",
+                bend:"ben",
+                angry:"bex vex",
+                begin:"b'gin",
+                bigger:"bigguh"
+            }
+        },
+        week3:{
+            vocab:{
+                business:"biness",
+                better:"bettuh",
+                village:"billage",
+                was:"binnuh",
+                belong:"b'long",
+                both:"boff",
+                borrow:"borruh",
+                about:"bout",
+                break:"bruk",
+                brother:"bubbuh",
+                whiteperson:"buckruh",
+                corner:"cawnuh",
+                cost:"cawse",
+                deceitful:"ceitful",
+                china:"chany",
+                chew:"chaw",
+                child:"chillun",
+                stupid:"chupid",
+                cold:"col",
+                booty:"boonkey"
+            },
+            grammar:{
+                tips:"remeber gullah is broken english like krio"
+            }
+        },
+        week4:{
+            vocab:{
+                deject:"cut'down",
+                cant:"cyan",
+                cast:"cyast",
+                that:"dat",
+                therefor:"deyfo'",
+                this:"dis",
+                thisHere:"dishyuh",
+                door:"doe",
+                dirt:"du't",
+                even:"eben",
+                in:"een",
+                succeed:"exceed",
+                advise:"edwise",
+                family:"fambly",
+                fire:"fiyah",
+                further:"fuhduh",
+                first:"fus",
+                give:"gibe",
+                against:"gense",
+                goingTO:"gwine"
+
+
+            },
+            grammar:{
+                he:"e",
+                she:"e",
+                it:"e"
+            }
         }
     },
     {

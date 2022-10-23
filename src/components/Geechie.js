@@ -5,6 +5,7 @@ import Langdata from "./Langdata";
 
 function Geechie(){
     //we got to make arrays with the data and 
+    
     return(<>
     <Language
         name={Langdata[2].title}

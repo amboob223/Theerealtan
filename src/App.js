@@ -11,7 +11,7 @@ import Yoruba from './components/Yoruba';
 import Geechie from './components/Geechie';
 import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
-
+import VideoScroller from "./components/videoscroller";
 function App() {
   return (
     <div>
@@ -62,6 +62,7 @@ function Home(){
         <tr><Scroller/></tr>
       </td>
     </table>
+    <VideoScroller/>
   </div>
    
   </>)
