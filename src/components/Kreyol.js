@@ -10,7 +10,7 @@ function Kreyol(){
 
 
     const [idx,setIdx] = useState(0)
-
+    const videos=[Langdata[4].week1.video]
     const weekv = [Langdata[4].week1.vocab,Langdata[4].week2.vocab,Langdata[4].week3.vocab,Langdata[4].week4.vocab,Langdata[4].week5.vocab]
     const weekg = [Langdata[4].week1.grammar,Langdata[4].week2.grammar,Langdata[4].week3.grammar, Langdata[4].week4.grammar, Langdata[4].week5.grammar]
     const weeks = ["week 1", "week 2", "week 3 ", "week 4 ", "week 5 "]

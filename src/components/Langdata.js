@@ -1,9 +1,9 @@
 const Langdata = [
     {
         title: "Krio",
-        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "its basically Broken English so start with english and break it",
         week1: {
+            video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
             grammar: {
                 Me: "I",
                 you: "you",
@@ -36,6 +36,7 @@ const Langdata = [
             }
         },
         week2: {
+            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             grammar: {
                 tips: "When speaking Krio its broken english so speak english and start breaking it"
             }
@@ -65,6 +66,7 @@ const Langdata = [
             }
         },
         week3: {
+            video:"https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 come: "kam",
                 time: "tem",
@@ -94,6 +96,8 @@ const Langdata = [
             }
         },
         week4: {
+
+            video:"https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 leave: "lef",
                 stand: "tinapp",
@@ -121,6 +125,7 @@ const Langdata = [
             }
         },
         week5: {
+            video:"https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 which: "ouuse",
                 where: "ouuse si",
@@ -152,11 +157,12 @@ const Langdata = [
     },
     {
         title: "Wolof",
-        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
+       
         tips: "Ki rooted word is pertains to a person (ko ku) Li root pertains to things.(lo lou)",
 
         week1:
         {
+             video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
             grammar: {
                 Me: "man",
                 you: "nga or yow",
@@ -190,6 +196,7 @@ const Langdata = [
             }
         },
         week2: {
+            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             grammar: {
                 articles: "are used to say the",
                 li: "pertains to things",
@@ -223,6 +230,7 @@ const Langdata = [
             }
         },
         week3: {
+            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             vocab: {
                 name: "tudd",
                 how: "naan",
@@ -250,6 +258,7 @@ const Langdata = [
             }
         },
         week4: {
+            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             vocab: {
                 turn: "jadd",
                 money: "halis",
@@ -277,6 +286,7 @@ const Langdata = [
             }
         },
         week5: {
+            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             vocab: {
                 wear: "sol",
                 toDress: "solu",
@@ -458,9 +468,9 @@ const Langdata = [
     },
     {
         title: "Yoruba",
-        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "Listen to alot of Afrobeats",
         week1: {
+            video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
             grammar: {
                 Me: "emi",
                 you: "iwo",
@@ -501,6 +511,7 @@ const Langdata = [
             }
         },
         week2: {
+            
             vocab: {
                 Spoke: "soro",
                 Wrote: "kowe",
@@ -565,6 +576,7 @@ const Langdata = [
             }
         },
         week4: {
+            video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
             vocab: {
                 wet: "tutu",
                 wrong: "beeko",
@@ -592,6 +604,7 @@ const Langdata = [
             }
         },
         week5: {
+            video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
             vocab: {
                 dog: "aja",
                 lion: "kiniun",

@@ -28,12 +28,13 @@ function Krio(){
     const weeks = [Langdata[0].week1.vocab,Langdata[0].week2.vocab,Langdata[0].week3.vocab,Langdata[0].week4.vocab,Langdata[0].week5.vocab,]
     const weekgr= [Langdata[0].week1.grammar,Langdata[0].week2.grammar,Langdata[0].week3.grammar,Langdata[0].week4.grammar,Langdata[0].week5.grammar]
     const wk = ["week 1 ","week 2 ", "week 3 ","week 4 ","week 5 "]
+    const videos=[Langdata[0].week1.video,Langdata[0].week2.video,Langdata[0].week3.video,Langdata[0].week4.video,Langdata[0].week5.video,]
     return(<>
     
 
     <Language
         name={Langdata[0].title}
-        video={Langdata[0].video}
+        video={videos[idx]}
         vocab={weeks[idx]}
         grammar={weekgr[idx]}
         week={wk[idx]}
