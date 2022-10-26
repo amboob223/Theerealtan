@@ -7,7 +7,7 @@ const Langdata = [
             grammar: {
                 Me: "I",
                 you: "you",
-                he:"ee or am if he(r) at end of sentence",
+                he:"ee or am",
                 we: "we",
                 them: "den",
                 yall: "una",

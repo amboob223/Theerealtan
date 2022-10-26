@@ -77,7 +77,8 @@ body{
 }  
 
 .navc{
-  margin:5%;
+  margin-right: 5%;
+  margin-left:5%;
   background-color:#4C7031;
   justify-content:space-evenly;
   position: static;
@@ -97,8 +98,12 @@ body{
 .navlink{
   text-decoration:none;
   color:#FFDE59;
-  
 }  
+
+.navlink:hover{
+  color: blue;
+}
+
 .scroll{
   display: flex;
   text-align:center;
