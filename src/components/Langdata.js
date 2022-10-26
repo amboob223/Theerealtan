@@ -203,7 +203,7 @@ const Langdata = [
             }
         },
         week2: {
-            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
+           
             grammar: {
                 articles: "are used to say the",
                 li: "pertains to things",
@@ -237,7 +237,7 @@ const Langdata = [
             }
         },
         week3: {
-            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
+            
             vocab: {
                 name: "tudd",
                 how: "naan",
@@ -265,7 +265,7 @@ const Langdata = [
             }
         },
         week4: {
-            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
+           
             vocab: {
                 turn: "jadd",
                 money: "halis",
@@ -293,7 +293,7 @@ const Langdata = [
             }
         },
         week5: {
-            video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
+           
             vocab: {
                 wear: "sol",
                 toDress: "solu",
@@ -475,9 +475,10 @@ const Langdata = [
     },
     {
         title: "Yoruba",
-        tips: "Listen to alot of Afrobeats",
+        tips: "Listen to alot of Afrobeats", 
+        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         week1: {
-            video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
+       
             grammar: {
                 Me: "emi",
                 you: "iwo",
