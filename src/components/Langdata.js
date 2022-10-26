@@ -7,10 +7,13 @@ const Langdata = [
             grammar: {
                 Me: "I",
                 you: "you",
+                he:"ee or am if he(r) at end of sentence",
                 we: "we",
                 them: "den",
                 yall: "una",
-                am: "de"
+                is: "de",
+                it:"am",
+                am:"de"
             },
             vocab: {
                 Hello: "ow de body",
@@ -25,43 +28,45 @@ const Langdata = [
                 Woman: "ouman",
                 stand: "Tinapp",
                 disrespect: "fityai",
-                what: "wetein",
+                car: "motokah",
                 are: "de",
                 child: "pekin",
-                car: "motocah",
-                tired: "tiyah",
-                crazy: "kraise",
-                have: "get",
+                gossip: "congosah",
+                know: "sahbee",
+                salt: "sol",
+                house:"os",
                 fight: "fet"
             }
         },
         week2: {
             video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             grammar: {
-                tips: "When speaking Krio its broken english so speak english and start breaking it"
+                mine:"me own",
+                whoDat:"oouu dah",
+                itIS:"nah",
             }
             ,
             vocab: {
-                theif: "tif",
-                pepper: "pepe`",
+                Here: "yah",
+                there: "yandah",
                 expensive: "deeyah",
                 careful: "saful",
-                incrementally: "small small",
+                what: "weitin",
                 hot: "wam",
                 tall: "langa",
-                knife: "nef",
+                want: "wan",
                 ground: "grohn",
-                rice: "res",
-                rest: "blo",
-                rat: "aratta",
+                until: "tey",
+                hear: "nyeree",
+                time: "tem",
                 commoner: "mortaman",
-                air: "briz",
+                like: "lek",
                 sit: "sidhom",
                 getup: "grap",
-                everyone: "allman",
-                bow: "butu",
-                water: "wata",
-                salt: "sol"
+                upon: "pan",
+                follow: "falla",
+                alot: "boku",
+                crazy: "kaise"
 
             }
         },
@@ -69,7 +74,7 @@ const Langdata = [
             video:"https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 come: "kam",
-                time: "tem",
+                comeOut: "comot",
                 when: "wea",
                 there: "dande",
                 stop: "lef",
@@ -83,6 +88,7 @@ const Langdata = [
                 this: "dis",
                 self: "sef",
                 behind: "beyeen",
+                before:"b'fo",
                 afraid: "fraid",
                 give: "gi",
                 lift: "ace",
@@ -92,7 +98,8 @@ const Langdata = [
 
             grammar: {
 
-                conjugation: "try making some sentences using the a noun and a verb."
+                conjugation: "try making some sentences using the a noun and a verb.",
+                tips:"to make sentences the structure is the same as english."
             }
         },
         week4: {

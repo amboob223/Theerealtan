@@ -14,7 +14,7 @@ function Language(props) {
       
       <div className='comp'>
       
-      <ReactPlayer url={props.video}/>
+      <ReactPlayer url={props.video} className="nu"/>
       <h3>{props.tips}</h3> 
       </div>
       {/* the voca part */}
