@@ -166,10 +166,10 @@ const Langdata = [
         title: "Wolof",
        
         tips: "Ki rooted word is pertains to a person (ko ku) Li root pertains to things.(lo lou)",
-
+        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         week1:
         {
-             video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
+             
             grammar: {
                 Me: "man",
                 you: "nga or yow",
