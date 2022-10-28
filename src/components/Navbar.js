@@ -50,6 +50,14 @@ function Navbar() {
                     {dropdown && <Dropdown />}
                     {/* // this means if the state is true then do this here */}
                 </li>
+                <li>
+                    <Link
+                        to="/shop"
+                        className="navlink"
+                        >
+                        Shop
+                        </Link>
+                </li>
 
                 <li>
                     <Link
