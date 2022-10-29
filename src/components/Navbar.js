@@ -52,7 +52,7 @@ function Navbar() {
                 </li>
                 <li>
                     <Link
-                        to="/shop"
+                        to="https://wocktancomshop.creator-spring.com/"
                         className="navlink"
                         >
                         Shop

@@ -11,7 +11,7 @@ import Yoruba from './components/Yoruba';
 import Geechie from './components/Geechie';
 import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
-import Shop from "./components/shop";
+// import Shop from "./components/shop";
 
 
 function App() {
@@ -29,7 +29,8 @@ function App() {
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/krio" element={<Krio />} />
-          <Route path="/shop" element={<Shop/>}/>
+          {/* <Route path="/shop" element={<Shop/>}/>
+          <Route path="/" element={<Merchform/>}/> */}
         </Routes>
       </Router>
       <Footer />

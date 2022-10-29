@@ -49,7 +49,7 @@ function Merchform() {
         }
 
         //axios we will make a post to spread sheet and what kind of product
-        axios.post("https://docs.google.com/spreadsheets/d/1U7jYeB9mXwqvfjmjPHKBgi4EZvEhtPJIM7NNIOtmd5o/edit#gid=0", data).then(
+        axios.post("https://sheet.best/api/sheets/b902b852-a3e6-49b8-81c9-debc53a29729", data).then(
             (response) => {
                 console.log(response)
 
