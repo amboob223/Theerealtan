@@ -46,14 +46,14 @@ function Contact() {
       (response) =>{
         console.log(response)
         //clearing fields
+      
+      }
+     )   
         setFormData({ fullname:"",
         email:"",
         phone:"",
         beaWock:false,
         getaWock:false})
-      }
-    
-     ) 
       alert("this was sucessful. We will contact You in the next three business days with info on Becoming or scheduling a Wocker")
    } // here is where we will be making the call to the google sheets
 
