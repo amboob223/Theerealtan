@@ -29,8 +29,8 @@ function App() {
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/krio" element={<Krio />} />
-          {/* <Route path="/shop" element={<Shop/>}/>
-          <Route path="/" element={<Merchform/>}/> */}
+          <Route path="/shop" />
+          {/*<Route path="/" element={<Merchform/>}/> */}
         </Routes>
       </Router>
       <Footer />
