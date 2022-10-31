@@ -52,22 +52,11 @@ function Navbar() {
                 </li>
                 <li>
                     <Link
-<<<<<<< HEAD
                         to="/shop"
                         className="navlink"
                     >
                         Shop
                     </Link>
-=======
-                        to="https://shop-490.creator-spring.com"
-                        className="navlink"
-                        >
-                            
-                            Shop
-                            
-                        
-                        </Link>
->>>>>>> b9f60076335df5a764c316e2bc7e24429ed36b08
                 </li>
 
                 <li>
