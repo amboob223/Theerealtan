@@ -51,12 +51,15 @@ function Navbar() {
                     {/* // this means if the state is true then do this here */}
                 </li>
                 <li>
-                    <Link
+                    {/* <Link
                         to="/shop"
                         className="navlink"
-                        >
+                    > */}
+                    <a href="https://wocktancomshop.creator-spring.com/" className="navlink">
                         Shop
-                        </Link>
+                    </a>
+
+                    {/* </Link> */}
                 </li>
 
                 <li>

@@ -11,7 +11,7 @@ import Yoruba from './components/Yoruba';
 import Geechie from './components/Geechie';
 import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
-import Shop from "./components/shop";
+// import Shop from "./components/shop";
 
 
 function App() {
@@ -29,7 +29,15 @@ function App() {
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/krio" element={<Krio />} />
-          <Route path="/shop" element={<Shop/>}/>
+          {/* <Route path='/privacy-policy' component={() => {
+            window.location.href = 'https://example.com/1234';
+            return null;
+          }} /> */}
+          <Route path="/shop" element={() => {
+            window.location.replace = "https://wocktancomshop.creator-spring.com/";
+            return null;
+          }} />
+          {/*<Route path="/" element={<Merchform/>}/> */}
         </Routes>
       </Router>
       <Footer />

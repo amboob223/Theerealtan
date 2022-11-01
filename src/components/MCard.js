@@ -10,7 +10,7 @@ function MCard(props) {
       <h3>{props.price}</h3>
       <h3>{props.Description}</h3>
       <Link
-        to="/merchform"
+        to="https://wocktancomshop.creator-spring.com/listing/wocktan-yoruba-good-morning-cu"
       >
         <button>buy now</button>
       </Link>
