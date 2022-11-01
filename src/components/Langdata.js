@@ -677,7 +677,7 @@ grammar: {
     theirs:"pa yo"
 },
 vocab: {
-    Hello: "bon swa",
+    Hello: "bonjur",
     Goodbye: "obvoir",
     speak:"pale",
     give:"ba",
@@ -723,7 +723,8 @@ vocab:{
 },
 grammar:{
 
-        possesion:"the pronoun after the noun. like my book = liv mwen"
+        possesion:"the pronoun after the noun. like my book = liv mwen",
+        goodMorning:"Bonjur"
 
     }   
  },
