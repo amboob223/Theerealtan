@@ -29,7 +29,14 @@ function App() {
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/krio" element={<Krio />} />
-          <Route path="/shop" />
+          {/* <Route path='/privacy-policy' component={() => {
+            window.location.href = 'https://example.com/1234';
+            return null;
+          }} /> */}
+          <Route path="/shop" element={() => {
+            window.location.replace = "https://wocktancomshop.creator-spring.com/";
+            return null;
+          }} />
           {/*<Route path="/" element={<Merchform/>}/> */}
         </Routes>
       </Router>
