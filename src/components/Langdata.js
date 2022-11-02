@@ -328,9 +328,9 @@ const Langdata = [
         }
     },
     {
-        title: "Geechie",
+        title: "Gullah",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
-        tips: "very similar to Krio in concept and even words",
+        tips: "This is not slave talk it is a linga franca of the geechie and gullah people.",
         week1: {
             grammar: {
                 Me: "me",
@@ -362,7 +362,7 @@ const Langdata = [
         },
         week2: {
             grammar: {
-                tips: "the langugage was mad by slaves who go the fu** on"
+                tips: "the langugage was made by enslaved Africans who go the fu** on and made their own way"
             },
             vocab: {
                 another: "anuhduh",
