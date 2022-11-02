@@ -651,7 +651,6 @@ const Langdata = [
             }
         }
     },
-
     {
         title: "Kreyol",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
@@ -677,7 +676,7 @@ const Langdata = [
                 theirs: "pa yo"
             },
             vocab: {
-                Hello: "bon swa",
+                Hello: "bonjur",
                 Goodbye: "obvoir",
                 speak: "pale",
                 give: "ba",
@@ -723,7 +722,9 @@ const Langdata = [
             },
             grammar: {
 
-                possesion: "the pronoun after the noun. like my book = liv mwen"
+                possesion: "the pronoun after the noun. like my book = liv mwen",
+                goodMorning: "Bonjur"
+
 
             }
         },
