@@ -328,7 +328,7 @@ const Langdata = [
         }
     },
     {
-        title: "Gullah",
+        title: "Geechie",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "very similar to Krio in concept and even words",
         week1: {
@@ -362,7 +362,7 @@ const Langdata = [
         },
         week2: {
             grammar: {
-                tips: "the langugage was made by slaves who go the fu** on"
+                tips: "the langugage was mad by slaves who go the fu** on"
             },
             vocab: {
                 another: "anuhduh",
@@ -468,8 +468,8 @@ const Langdata = [
 
             },
             grammar: {
-                tips: "you got to speak like old times. Take regular english and break it"
-
+                tips: "you got to speak like old times",
+                facts: "geechie and krio have a lot if similar words"
             }
         }
     },
