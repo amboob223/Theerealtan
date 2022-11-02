@@ -2,42 +2,44 @@
   text-align: center;
 }
 
-*{
+* {
   font-family: 'Lato', sans-serif;
 
 }
 
-.nu{
+.nu {
   border-radius: 20%;
 }
 
-body{
+body {
   background-color: #f8f0cc;
 }
 
-.table{
+.table {
   display: flex;
   justify-content: center;
 }
+
 /* card */
-.card>img{
+.card>img {
   margin-top: 2%;
   width: 300px;
   height: 200px;
   border-radius: 12%;
- 
- 
+
+
 }
 
-.card{
-  width:350px; 
-  background-color:#4C7031;
+.card {
+  width: 350px;
+  background-color: #4C7031;
   text-align: center;
-  height:350px;
+  height: 350px;
   border-radius: 12%;
 
 }
-.card>h1{
+
+.card>h1 {
   text-align: center;
 }
 
@@ -45,174 +47,180 @@ body{
 
 
 
-.forminput{
-  display:flex;
-  margin:5%;
-  text-align:center;
-  justify-content:center;
+.forminput {
+  display: flex;
+  margin: 5%;
+  text-align: center;
+  justify-content: center;
 }
 
-.form{
-  display:flex;
+.form {
+  display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.forminput>input{
+.forminput>input {
   margin-left: 2%;
   text-align: center;
 }
 
-.nav>li{
-  
+.nav>li {
+
   list-style: none;
   margin-left: 5%;
 }
 
-.nav{
- display: flex;
+.nav {
+  display: flex;
   justify-content: center;
-  margin:0%;
+  margin: 0%;
   padding-top: 40px
-}  
+}
 
-.navc{
-  margin-right: 5%;
-  margin-left:5%;
-  background-color:#4C7031;
-  justify-content:space-evenly;
+.navc {
+
+
+  background-color: #4C7031;
+  justify-content: space-evenly;
   position: static;
-  display:flex;
+  display: flex;
   ;
-  
-}  
-.navpic{
-  width:100px;
-  height:100px;
+
+}
+
+.navpic {
+  width: 100px;
+  height: 100px;
   border-radius: 20%;
-  position:static;
+  position: static;
 
 }
 
 
-.navlink{
-  text-decoration:none;
-  color:#FFDE59;
-}  
+.navlink {
+  text-decoration: none;
+  color: #FFDE59;
+}
 
-.navlink:hover{
+.navlink:hover {
   color: blue;
 }
 
-.scroll{
+.scroll {
   display: flex;
-  text-align:center;
- justify-content:center; 
+  text-align: center;
+  justify-content: center;
 
-} 
+}
 
-.scroll>button{
+.scroll>button {
   cursor: pointer;
   margin-top: 2%;
   margin-left: 2%;
   border-radius: 12%;
-  background-color:#FFDE59;;
-}  
+  background-color: #FFDE59;
+  ;
+}
 
-#scrolhead{
+#scrolhead {
   display: flex;
   justify-content: center;
-}  
+}
 
-.scrollink{
+.scrollink {
   text-decoration: none;
-  color:#FFDE59;
-}  
+  color: #FFDE59;
+}
 
-.dropp{
-  position:fixed;
-  background-color:#FFDE59;
-}  
+.dropp {
+  position: fixed;
+  background-color: #FFDE59;
+}
 
-.dropitems{
+.dropitems {
   text-decoration: none;
   list-style-type: none;
-  color:black;
-}  
-
-.about{
-  display: flex;
-  justify-content: center;
-  
-}  
-.about>div{
-  width:500px
-}  
-
-.vocab{
-  display: flex;
-  position: relative;
-}  
-.content{
-  
-min-width:min-content;
-  justify-content: center;
-  width:300px;
-  padding:2%;
-  position: relative;
- 
-}  
-
-.contentt{
-  justify-content: center;
-  display: flex;
-  
+  color: black;
 }
 
-.btnc{
+.about {
+  display: flex;
   justify-content: center;
-  display:flex;
-  position:static;
+
 }
 
-.main{
+.about>div {
+  width: 500px
+}
+
+.vocab {
+  display: flex;
+  position: relative;
+}
+
+.content {
+
+  min-width: min-content;
+  justify-content: center;
+  width: 300px;
+  padding: 2%;
+  position: relative;
+
+}
+
+.contentt {
+  justify-content: center;
+  display: flex;
+
+}
+
+.btnc {
   justify-content: center;
   display: flex;
   position: static;
-  
-  height:550px;
-  
-}  
+}
 
-.comp{
-  display:flex;
+.main {
   justify-content: center;
-}  
+  display: flex;
+  position: static;
 
-button{
+  height: 550px;
+
+}
+
+.comp {
+  display: flex;
+  justify-content: center;
+}
+
+button {
   margin-left: 2%;
   border-radius: 12%;
-  background-color:#FFDE59;;
+  background-color: #FFDE59;
+  ;
 }
 
-.bounce>td{
-  padding:1%;
+.bounce>td {
+  padding: 1%;
 }
 
-.abtbtn{
+.abtbtn {
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.abtl{
+.abtl {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-.footer{
+.footer {
   text-align: center;
 }
+
 .cardC {
   width: 150px;
   background-color: #4C7031;
