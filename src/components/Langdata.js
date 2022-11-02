@@ -7,13 +7,13 @@ const Langdata = [
             grammar: {
                 Me: "I",
                 you: "you",
-                he:"ee or am",
+                he: "ee or am",
                 we: "we",
                 them: "den",
                 yall: "una",
                 is: "de",
-                it:"am",
-                am:"de"
+                it: "am",
+                am: "de"
             },
             vocab: {
                 Hello: "ow de body",
@@ -34,16 +34,16 @@ const Langdata = [
                 gossip: "congosah",
                 know: "sahbee",
                 salt: "sol",
-                house:"os",
+                house: "os",
                 fight: "fet"
             }
         },
         week2: {
             video: "https://www.youtube.com/watch?v=TyTYxhf_lYc",
             grammar: {
-                mine:"me own",
-                whoDat:"oouu dah",
-                itIS:"nah",
+                mine: "me own",
+                whoDat: "oouu dah",
+                itIS: "nah",
             }
             ,
             vocab: {
@@ -71,7 +71,7 @@ const Langdata = [
             }
         },
         week3: {
-            video:"https://www.youtube.com/watch?v=sqABZsc22iE",
+            video: "https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 come: "kam",
                 comeOut: "comot",
@@ -88,7 +88,7 @@ const Langdata = [
                 this: "dis",
                 self: "sef",
                 behind: "beyeen",
-                before:"b'fo",
+                before: "b'fo",
                 afraid: "fraid",
                 give: "gi",
                 lift: "ace",
@@ -99,12 +99,12 @@ const Langdata = [
             grammar: {
 
                 conjugation: "try making some sentences using the a noun and a verb.",
-                tips:"to make sentences the structure is the same as english."
+                tips: "to make sentences the structure is the same as english."
             }
         },
         week4: {
 
-            video:"https://www.youtube.com/watch?v=sqABZsc22iE",
+            video: "https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 leave: "lef",
                 stand: "tinapp",
@@ -132,7 +132,7 @@ const Langdata = [
             }
         },
         week5: {
-            video:"https://www.youtube.com/watch?v=sqABZsc22iE",
+            video: "https://www.youtube.com/watch?v=sqABZsc22iE",
             vocab: {
                 which: "ouuse",
                 where: "ouuse si",
@@ -164,12 +164,12 @@ const Langdata = [
     },
     {
         title: "Wolof",
-       
+
         tips: "Ki rooted word is pertains to a person (ko ku) Li root pertains to things.(lo lou)",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         week1:
         {
-             
+
             grammar: {
                 Me: "man",
                 you: "nga or yow",
@@ -203,7 +203,7 @@ const Langdata = [
             }
         },
         week2: {
-           
+
             grammar: {
                 articles: "are used to say the",
                 li: "pertains to things",
@@ -237,7 +237,7 @@ const Langdata = [
             }
         },
         week3: {
-            
+
             vocab: {
                 name: "tudd",
                 how: "naan",
@@ -265,7 +265,7 @@ const Langdata = [
             }
         },
         week4: {
-           
+
             vocab: {
                 turn: "jadd",
                 money: "halis",
@@ -293,7 +293,7 @@ const Langdata = [
             }
         },
         week5: {
-           
+
             vocab: {
                 wear: "sol",
                 toDress: "solu",
@@ -328,7 +328,7 @@ const Langdata = [
         }
     },
     {
-        title: "Geechie",
+        title: "Gullah",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         tips: "very similar to Krio in concept and even words",
         week1: {
@@ -362,7 +362,7 @@ const Langdata = [
         },
         week2: {
             grammar: {
-                tips: "the langugage was mad by slaves who go the fu** on"
+                tips: "the langugage was made by slaves who go the fu** on"
             },
             vocab: {
                 another: "anuhduh",
@@ -468,17 +468,17 @@ const Langdata = [
 
             },
             grammar: {
-                tips: "you got to speak like old times",
-                facts: "geechie and krio have a lot if similar words"
+                tips: "you got to speak like old times. Take regular english and break it"
+
             }
         }
     },
     {
         title: "Yoruba",
-        tips: "Listen to alot of Afrobeats", 
+        tips: "Listen to alot of Afrobeats",
         video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
         week1: {
-       
+
             grammar: {
                 Me: "emi",
                 you: "iwo",
@@ -519,7 +519,7 @@ const Langdata = [
             }
         },
         week2: {
-            
+
             vocab: {
                 Spoke: "soro",
                 Wrote: "kowe",
@@ -652,170 +652,170 @@ const Langdata = [
         }
     },
 
-{
-title: "Kreyol",
-video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
-tips: "Take french and mess it up. its broken french. Listen to compas music",
-week1:{
-grammar: {
-    Me: "m",
-    you: "Ouu",
-    we: "nou",
-    them: "yo",
-    yall: "li",
-    her: "li",
-    us:"nou",
-    she:"li",
-    our:"nou",
-    their:"yo",
-    my:"mwen",
-    mine:"pa'm",
-    yours:"pa ou",
-    his:"pa li",
-    hers:"pa li",
-    ours:"pa nou",
-    theirs:"pa yo"
-},
-vocab: {
-    Hello: "bon swa",
-    Goodbye: "obvoir",
-    speak:"pale",
-    give:"ba",
-    book:"liv",
-    yes: "wi",
-    No: "No",
-    Boy: "tigason",
-    Girl: "firi",
-    Man: "gason",
-    Woman: "fanm",
-    thanks:"mesi",
-    please:"souple",
-    thereIs:"gen",
-    thereIsNo:"pa genyen",
-    aLittle:"piti piti",
-    alot:"anpil",
-    here:"isit",
-    there:"la",
-    everywhere:"toupalou"
-}
-},
-week2:{
-vocab:{
-    notNow:"pa kounye",
-    nothing:"anyen",
-    hurry:"prese prese",
-    fire:"dife",
-    stop:"rete",
-    now:"kounye-a",
-    yesterday:"ye",
-    today:"jodia",
-    tomrrow:"demen",
-    thisMorning:"maten an",
-    thisAfternoon:"aprendi a",
-    thisEvening:"aswe a",
-    days:"joi",
-    time:"tan",
-    hour:"edtan",
-    minute:"minit",
-    second:"segonn",
-    big:"gwo",
-    long:"tan"
-},
-grammar:{
-
-        possesion:"the pronoun after the noun. like my book = liv mwen"
-
-    }   
- },
- week3:{
-vocab:{
-    black:"nwa",
-    short:"kout",
-    how:"kijohn",
-    doing:"ye",
-    narrow:"etwat",
-    eat:"manje",
-    bread:"pehn",
-    fresh:"fre",
-    bad:"move",
-    clean:"pwop",
-    difficult:"difisil",
-    dirty:"sal",
-    dry:"sek",
-    easy:"fasil",
-    empty:"vid",
-    expensive:"che'",
-    fast:"vit",
-    full:"plen",
-    good:"bon",
-    new:"nouvo"
-},
-grammar:{
-    tips:"listen to some knopas music and see how many words you can identify"
-}
-    },
-week4:{
-    vocab:{
-        noisy:"bwi",
-        old:"ansyen",
-        quiet:"trankil",
-        slow:"dousman",
-        soft:"mou",
-        weak:"f'eb",
-        wet:"mouye",
-        wrong:"mal",
-        young:"juhn",
-        candy:"bonbon",
-        chicken:"poul",
-        dinner:"dine",
-        breakfast:"manje maten",
-        lunch:"manje midi",
-        dinner:"manje soupe",
-        sugar:"sik",
-        room:"chamn",
-        pants:"pantalon",
-        paper:"papye"
-    },
-    grammar:{   
-        doYou:"eske",
-        sentence:"eske manje bonbon = do you eat candy"
-        
-    }
-},
- week5:{
-        vocab:{
-            need:"benzouen",
-            stop:"rete",
-            have:"genyen",
-            sit:"chita",
-            run:"kouri",
-            come:"vini",
-            layDown:"kouche",
-            go:"ale'",
-            recieve:"pran",
-            getUP:"leve",
-            finish:"fini",
-            close:"femen",
-            cleanUP:"netwaye",
-            buy:"achte",
-            shout:"kri",
-            trust:"konfyans",
-            leave:"pati",
-            look:"gade",
-            drink:"bwe",
-            drop:"tonbe"
-
+    {
+        title: "Kreyol",
+        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
+        tips: "Take french and mess it up. its broken french. Listen to compas music",
+        week1: {
+            grammar: {
+                Me: "m",
+                you: "Ouu",
+                we: "nou",
+                them: "yo",
+                yall: "li",
+                her: "li",
+                us: "nou",
+                she: "li",
+                our: "nou",
+                their: "yo",
+                my: "mwen",
+                mine: "pa'm",
+                yours: "pa ou",
+                his: "pa li",
+                hers: "pa li",
+                ours: "pa nou",
+                theirs: "pa yo"
+            },
+            vocab: {
+                Hello: "bon swa",
+                Goodbye: "obvoir",
+                speak: "pale",
+                give: "ba",
+                book: "liv",
+                yes: "wi",
+                No: "No",
+                Boy: "tigason",
+                Girl: "firi",
+                Man: "gason",
+                Woman: "fanm",
+                thanks: "mesi",
+                please: "souple",
+                thereIs: "gen",
+                thereIsNo: "pa genyen",
+                aLittle: "piti piti",
+                alot: "anpil",
+                here: "isit",
+                there: "la",
+                everywhere: "toupalou"
+            }
         },
-        grammar:{
-            who:"ki moun",
-            when:"kile'",
-            why:"pourkisa",
-            what:"kisa",
-            where:"kote'",
-            which:"kiles",
-            how:"kijan",
+        week2: {
+            vocab: {
+                notNow: "pa kounye",
+                nothing: "anyen",
+                hurry: "prese prese",
+                fire: "dife",
+                stop: "rete",
+                now: "kounye-a",
+                yesterday: "ye",
+                today: "jodia",
+                tomrrow: "demen",
+                thisMorning: "maten an",
+                thisAfternoon: "aprendi a",
+                thisEvening: "aswe a",
+                days: "joi",
+                time: "tan",
+                hour: "edtan",
+                minute: "minit",
+                second: "segonn",
+                big: "gwo",
+                long: "tan"
+            },
+            grammar: {
+
+                possesion: "the pronoun after the noun. like my book = liv mwen"
+
+            }
+        },
+        week3: {
+            vocab: {
+                black: "nwa",
+                short: "kout",
+                how: "kijohn",
+                doing: "ye",
+                narrow: "etwat",
+                eat: "manje",
+                bread: "pehn",
+                fresh: "fre",
+                bad: "move",
+                clean: "pwop",
+                difficult: "difisil",
+                dirty: "sal",
+                dry: "sek",
+                easy: "fasil",
+                empty: "vid",
+                expensive: "che'",
+                fast: "vit",
+                full: "plen",
+                good: "bon",
+                new: "nouvo"
+            },
+            grammar: {
+                tips: "listen to some knopas music and see how many words you can identify"
+            }
+        },
+        week4: {
+            vocab: {
+                noisy: "bwi",
+                old: "ansyen",
+                quiet: "trankil",
+                slow: "dousman",
+                soft: "mou",
+                weak: "f'eb",
+                wet: "mouye",
+                wrong: "mal",
+                young: "juhn",
+                candy: "bonbon",
+                chicken: "poul",
+                dinner: "dine",
+                breakfast: "manje maten",
+                lunch: "manje midi",
+                dinner: "manje soupe",
+                sugar: "sik",
+                room: "chamn",
+                pants: "pantalon",
+                paper: "papye"
+            },
+            grammar: {
+                doYou: "eske",
+                sentence: "eske manje bonbon = do you eat candy"
+
+            }
+        },
+        week5: {
+            vocab: {
+                need: "benzouen",
+                stop: "rete",
+                have: "genyen",
+                sit: "chita",
+                run: "kouri",
+                come: "vini",
+                layDown: "kouche",
+                go: "ale'",
+                recieve: "pran",
+                getUP: "leve",
+                finish: "fini",
+                close: "femen",
+                cleanUP: "netwaye",
+                buy: "achte",
+                shout: "kri",
+                trust: "konfyans",
+                leave: "pati",
+                look: "gade",
+                drink: "bwe",
+                drop: "tonbe"
+
+            },
+            grammar: {
+                who: "ki moun",
+                when: "kile'",
+                why: "pourkisa",
+                what: "kisa",
+                where: "kote'",
+                which: "kiles",
+                how: "kijan",
+            }
         }
     }
- }
 ]
 export default Langdata;

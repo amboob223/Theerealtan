@@ -53,14 +53,13 @@ function Home() {
       <table class="bounce">
         <td>
           <tr>
-            <h1> Welcome to the wocktan</h1>
+            <h1> Welcome to the Wocktan</h1>
           </tr>
           <tr>
-            <h3>Wocktan is the worlds most imersive way to learn African languages by...</h3>
+            <h3>Wocktan is the worlds most imersive ways to learn African languages by...</h3>
 
             <ul>
               <li>Video Lessons</li>
-              <li>Weekly Quizes</li>
               <li>Weekly Vocab and Grammar</li>
               <li>Responsive speakers(wockers)</li>
               <li>Teaching and become a wocker.</li>
