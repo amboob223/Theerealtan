@@ -1,10 +1,10 @@
 import React from "react";
 import "../App.css";
 
-function Footer(){
-    return(<div class="footer">
+function Footer() {
+    return (<div class="footer">
         <h3>
-            this App was made by Medumeta.com
+            Powered by Medumeta.com
         </h3>
     </div>)
 }
