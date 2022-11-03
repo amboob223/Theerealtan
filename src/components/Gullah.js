@@ -5,7 +5,7 @@ import Langdata from "./Langdata";
 import { useState } from "react";
 
 
-function Geechie() {
+function Gullah() {
     //we got to make arrays with the data and 
     const [idx, setIdx] = useState(0)
 
@@ -42,4 +42,4 @@ function Geechie() {
     </>)
 }
 
-export default Geechie;
+export default Gullah;

@@ -10,8 +10,8 @@ const Dropdata = [
         cname: "dropitems"
     },
     {
-        name: "Geechie",
-        path: "/geechie",
+        name: "Gullah",
+        path: "/gullah",
         cname: "dropitems"
     },
     {

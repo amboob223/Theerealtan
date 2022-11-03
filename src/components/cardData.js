@@ -16,11 +16,11 @@ const cardData = [
 
     },
     {
-        name:"Geechie",
-        path:"/geechie",
+        name:"Gullah",
+        path:"/gullah",
         img:gh,
         cname:"carditem",
-        des:"this is a description of the Geechie language"
+        des:"this language of the Gullah people"
     },
     {
         name:"Kreyol",

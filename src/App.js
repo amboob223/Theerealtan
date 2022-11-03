@@ -8,7 +8,7 @@ import Wolof from "./components/Wolof";
 import Scroller from './components/Scroller';
 import Krio from "./components/Krio";
 import Yoruba from './components/Yoruba';
-import Geechie from './components/Geechie';
+import Gullah from './components/Gullah';
 import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
 // import Shop from "./components/shop";
@@ -24,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/wolof" element={<Wolof />} />
-          <Route path="/geechie" element={<Geechie />} />
+          <Route path="/gullah" element={<Gullah />} />
           <Route path="/kreyol" element={<Kreyol />} />
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
@@ -56,7 +56,7 @@ function Home() {
             <h1> Welcome to the Wocktan</h1>
           </tr>
           <tr>
-            <h3>Wocktan is the worlds most imersive ways to learn African languages by...</h3>
+            <h3>Wocktan is the best way to learn an African language by...</h3>
 
             <ul>
               <li>Video Lessons</li>
