@@ -13,7 +13,8 @@ import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
 // import Shop from "./components/shop";
 import shirt from "../src/images/shirt.jpg";
-import {Link} from "react-router-dom";
+import Blog from "./components/Blog"
+
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/kreyol" element={<Kreyol />} />
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog/>}/>
           <Route path="/krio" element={<Krio />} />
           {/* <Route path='/privacy-policy' component={() => {
             window.location.href = 'https://example.com/1234';

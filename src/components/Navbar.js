@@ -51,6 +51,14 @@ function Navbar() {
                     {/* // this means if the state is true then do this here */}
                 </li>
                 <li>
+                    <Link
+                        to="/blog"
+                        className='navlink'
+                        >
+                            blog
+                        </Link>
+                </li>
+                <li>
                     {/* <Link
                         to="/shop"
                         className="navlink"
@@ -70,6 +78,7 @@ function Navbar() {
                         Contacts
                     </Link>
                 </li>
+
             </ul>
 
         </nav>
