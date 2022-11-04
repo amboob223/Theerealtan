@@ -250,3 +250,11 @@ button {
 .cardC>button {
   margin: 20px;
 }
+
+.long{
+  width:100%;
+}
+
+.homepic{
+  border-radius: 20%;
+}

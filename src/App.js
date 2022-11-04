@@ -12,7 +12,8 @@ import Gullah from './components/Gullah';
 import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
 // import Shop from "./components/shop";
-
+import shirt from "../src/images/shirt.jpg";
+import {Link} from "react-router-dom";
 
 function App() {
   return (
@@ -70,8 +71,27 @@ function Home() {
           <tr id="scrolhead"><h2>Choose a language.</h2></tr>
           <tr><Scroller /></tr>
         </td>
-      </table>
-
+       <tr className="long">
+           <h1>Wocktan Blog</h1> 
+            <h2>Why is it important to learn an african language?</h2>
+            <p>It is important to learn a diffrent language for many reasons. If you know another language you can do alot of diffrent things.
+               If you want to do business in diffrent countries or meet people from diffent countries it would be benefical to know another language. Even If you cant speak it properly at first if you try people will recieve you diffrently and favorably. 
+              </p>   
+     <td>
+            <h1>
+              Shop
+            </h1>
+     
+    
+    <a href="https://wocktancomshop.creator-spring.com/">
+      <img src={shirt} alt="logo" className="homepic"/>
+    </a>
+        
+    
+          
+          </td>
+        </tr>
+           </table>
     </div>
 
   </>)
