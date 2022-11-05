@@ -54,9 +54,9 @@ function Navbar() {
                     <Link
                         to="/blog"
                         className='navlink'
-                        >
-                            blog
-                        </Link>
+                    >
+                        Blog
+                    </Link>
                 </li>
                 <li>
                     {/* <Link

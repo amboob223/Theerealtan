@@ -18,6 +18,10 @@ body {
 .table {
   display: flex;
   justify-content: center;
+  margin-left: 12%;
+  margin-right: 8%;
+  margin-top: 4%;
+  margin-bottom: 5%;
 }
 
 /* card */
@@ -202,9 +206,7 @@ button {
   ;
 }
 
-.bounce>td {
-  padding: 1%;
-}
+
 
 .abtbtn {
   display: flex;
@@ -251,10 +253,33 @@ button {
   margin: 20px;
 }
 
-.long{
-  width:100%;
+
+
+.homepic {
+  border-radius: 20%;
 }
 
-.homepic{
-  border-radius: 20%;
+.welc {
+  width: 50%;
+}
+
+.long>p {
+  width: 50%;
+
+}
+
+.long {
+  align-content: space-between;
+
+}
+
+.shopt {
+  text-align: center;
+  margin-left: 10%;
+
+}
+
+.hype {
+  text-decoration: none;
+  color: black;
 }

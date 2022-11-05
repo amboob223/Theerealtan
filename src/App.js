@@ -30,7 +30,7 @@ function App() {
           <Route path="/kreyol" element={<Kreyol />} />
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/blog" element={<Blog />} />
           <Route path="/krio" element={<Krio />} />
           {/* <Route path='/privacy-policy' component={() => {
             window.location.href = 'https://example.com/1234';
@@ -54,7 +54,7 @@ function Home() {
     <div className='table'>
 
       <table class="bounce">
-        <td>
+        <td className='welc'>
           <tr>
             <h1> Welcome to the Wocktan</h1>
           </tr>
@@ -69,31 +69,51 @@ function Home() {
             </ul>
           </tr>
         </td>
-        <td>
-          <tr id="scrolhead"><h2>Choose a language.</h2></tr>
-          <tr><Scroller /></tr>
+        <td >
+          <div className='shopt' >
+
+
+
+
+            <tr ><h2 id="scrolhead">Choose a language.</h2></tr>
+            <tr>
+              <Scroller />
+            </tr>
+          </div>
         </td>
-       <tr className="long">
-           <h1>Wocktan Blog</h1> 
+
+        <tr className="long">
+          <td>
+
+            <h1>Wocktan Blog</h1>
             <h2>Why is it important to learn an african language?</h2>
             <p>It is important to learn a diffrent language for many reasons. If you know another language you can do alot of diffrent things.
-               If you want to do business in diffrent countries or meet people from diffent countries it would be benefical to know another language. Even If you cant speak it properly at first if you try people will recieve you diffrently and favorably. 
-              </p>   
-     <td>
-            <h1>
-              Shop
-            </h1>
-     
-    
-    <a href="https://wocktancomshop.creator-spring.com/">
-      <img src={shirt} alt="logo" className="homepic"/>
-    </a>
-        
-    
-          
+              If you want to do business in diffrent countries or meet people from diffent countries it would be benefical to know another language. Even If you cant speak it properly at first if you try people will recieve you diffrently and favorably.
+            </p>
+
+          </td>
+          <td>
+            <div className='shopt'>
+
+
+
+              <a href="https://wocktancomshop.creator-spring.com/" className='hype'>
+                <h1>Shop </h1>
+              </a>
+
+
+
+
+
+              <a href="https://wocktancomshop.creator-spring.com/">
+                <img src={shirt} alt="logo" className="homepic" />
+              </a>
+            </div>
+
+
           </td>
         </tr>
-           </table>
+      </table>
     </div>
 
   </>)
