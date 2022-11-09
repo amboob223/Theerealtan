@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+p{
+  text-indent: 2%
+}
 * {
   font-family: 'Lato', sans-serif;
 

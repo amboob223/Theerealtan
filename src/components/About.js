@@ -28,8 +28,8 @@ function About() {
 
       </p>
 
-      <h2>How to get a wocker?</h2>
-      <p>press the button below to schedule a meeting with a wocker.
+      <h2>How to get a Wocker?</h2>
+      <p>Press the button below to schedule a meeting with a wocker.
         We will contact you to about which language you want to learn and we will connect you let you choose a wocker to practice with.
         Wocker service requires a $5 a month subscription fee which gives you full access to wocker scheduling and all the videos, notes,grammar and quiz material.
       </p>
