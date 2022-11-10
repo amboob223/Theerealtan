@@ -104,7 +104,7 @@ const Langdata = [
         },
         week4: {
 
-            video: "https://www.youtube.com/watch?v=sqABZsc22iE",
+            video: "https://youtu.be/pS4iN7nMIzs",
             vocab: {
                 leave: "lef",
                 stand: "tinapp",
