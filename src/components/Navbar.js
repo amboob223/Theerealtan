@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import Dropdown from './Dropdown';
 import lg from "../images/wocktan.png"
+import "../App.css"
 function Navbar() {
 
     //we have to make state here to keep track of the dropdown

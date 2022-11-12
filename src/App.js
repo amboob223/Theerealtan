@@ -13,7 +13,10 @@ import Kreyol from "./components/Kreyol";
 import Footer from "./components/footer";
 // import Shop from "./components/shop";
 import shirt from "../src/images/shirt.jpg";
-import Blog from "./components/Blog"
+import Blog1 from "./components/blog1";
+import Blog2 from "./components/blog2";
+import Blog3 from "./components/blog3";
+import Blog from "./components/Blog";
 
 
 function App() {
@@ -30,16 +33,16 @@ function App() {
           <Route path="/kreyol" element={<Kreyol />} />
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog1" element={<Blog1/>}/>
+          <Route path="/blog2" element={<Blog2/>}/>
+          <Route path="/blog3" element={<Blog3/>}/>
+          <Route path="/blog" element={<Blog/>}/>
           <Route path="/krio" element={<Krio />} />
           {/* <Route path='/privacy-policy' component={() => {
             window.location.href = 'https://example.com/1234';
             return null;
           }} /> */}
-          <Route path="/shop" element={() => {
-            window.location.replace = "https://wocktancomshop.creator-spring.com/";
-            return null;
-          }} />
+          
           {/*<Route path="/" element={<Merchform/>}/> */}
         </Routes>
       </Router>
