@@ -36,7 +36,7 @@ function Yoruba() {
 
             scroll through the weeks info
             <button onClick={next}>next</button>
-            <button onClick={last}>last</button>
+            <button onClick={last}>back</button>
         </div>
     </>)
 }

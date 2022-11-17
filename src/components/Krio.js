@@ -43,7 +43,7 @@ function Krio() {
 
             scroll through the weeks info
             <button onClick={next}>next</button>
-            <button onClick={last}>last</button>
+            <button onClick={last}>back</button>
         </div>
 
     </>)//so with the click evenst we change as we pass in the props 

@@ -155,9 +155,13 @@ const Langdata = [
 
             },
             grammar: {
-                pasttense: "(noun)be don (verb)",
-                presnttense: "(de) before verb",
-                futuretense: "(noun) go (verb)"
+                pasttense: "after (noun) be don (verb)",
+                presnttense: "after noun (de') before verb",
+                futuretense: "(noun) go (verb)",
+                was: "be de' ",
+                in: "insai",
+                toDO: " get fo",
+
 
             }
         }
