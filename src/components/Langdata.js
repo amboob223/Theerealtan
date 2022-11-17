@@ -132,7 +132,7 @@ const Langdata = [
             }
         },
         week5: {
-            video: "https://www.youtube.com/watch?v=sqABZsc22iE",
+            video: "https://youtu.be/xpkIlRPa-cc",
             vocab: {
                 which: "ouuse",
                 where: "ouuse si",
