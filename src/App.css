@@ -9,6 +9,7 @@ p{
 
 }
 
+
 .nu {
   border-radius: 20%;
 }
@@ -191,9 +192,7 @@ body {
   justify-content: center;
   display: flex;
   position: static;
-
   height: 550px;
-
 }
 
 .comp {
@@ -263,6 +262,7 @@ button {
 
 .welc {
   width: 50%;
+  
 }
 
 .long>p {
@@ -286,3 +286,13 @@ button {
   color: black;
 }
 
+@media(max-width:600px){
+   .welc{
+    display: none;
+   }
+   
+   .long{
+    display: none;
+   }
+
+}

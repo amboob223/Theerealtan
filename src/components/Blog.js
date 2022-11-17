@@ -23,6 +23,7 @@ function Blog() {
     body={data[0].body}
     date={data[0].date}
     path={data[0].path}
+    img={data[0].img}
     />
     
     <Cardbone
@@ -31,6 +32,7 @@ function Blog() {
     body={data[1].body}
     date={data[1].date}
     path={data[1].path}
+    img={data[1].img}
     />
     
     <Cardbone
@@ -39,6 +41,7 @@ function Blog() {
     body={data[2].body}
     date={data[2].date}
     path={data[2].path}
+    img={data[2].img}
     />
     
 

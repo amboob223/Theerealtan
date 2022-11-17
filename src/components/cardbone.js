@@ -1,6 +1,6 @@
 import React from 'react';
 import "../blog.css";
-import pic from "../images/wocktan.png";
+// import pic from "../images/wocktan.png";
 import {Link} from "react-router-dom";
 
 function Cardbone(props) {
@@ -9,7 +9,7 @@ function Cardbone(props) {
 <div class="blog-container">
         <div class="blog-box">
             <div class="blog-img">
-                <img src={pic} alt="logo"/>
+                <img src={props.img} alt="logo"/>
             </div>
 
             <div class="blog-text">
