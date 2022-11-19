@@ -175,13 +175,17 @@ const Langdata = [
         {
 
             grammar: {
-                Me: "man",
-                you: "nga or yow",
-                we: "nun",
-                them: "nyun",
-                yall: "ngeen",
-                am: "gi",
-                Iam: "dama"
+    
+                bi: " generic article",
+                ki: "refers to a person",
+                li: "refers to a thing",
+                gi: "refers to a woman",
+                wi: "refers to nature",
+                ji: "that are religous",
+                yi:"refers to plural",
+                Tips:"replace article i with u when aticle generic. Like to say who this we switch ki which refers to a person to ku. as we dont know the person and we put the article at the end so to say who is it we say ko ku"
+
+
             },
             vocab: {
                 Hello: "na nga def",
@@ -196,26 +200,43 @@ const Langdata = [
                 Woman: "Jigean",
                 hungry: "heef",
                 thirsty: "mar",
-                fasting: "koor",
-                breakfast: "ndekki",
-                lunch: "an",
-                dinner: "rayair",
-                plate: "pahlaht",
-                spoon: "kuuduu",
-                fork: "furset",
-                knife: "pahkah"
+                dad: "Baay",
+                mother:"yaay",
+                brother:"rakk",
+                sister:"rakk",
+                friend:"harit",
+                what:"lan",
+                which:"ban",
+                who:"kan",
+                
+
             }
         },
         week2: {
 
             grammar: {
-                articles: "are used to say the",
-                li: "pertains to things",
-                ki: "pertains to people",
-                gi: "pertains to males",
-                ji: "pertains to women",
-                bi: "general things",
-                mi: "things in nature"
+                me:"man",
+                you:"yow",
+                heOrShe:"moom",
+                we:"nun",
+                yall:"yeen",
+                them:"nyoom",
+                Iam:"maan gi",
+                youIs:"yaan gi",
+                heIs:"moon gi",
+                weIs:'nun gi',
+                theyIs:"nyun gi",
+                Iam:"dama",
+                youAre:"danga",
+                heAre:"dafa",
+                weAre:"danu",
+                theyAre:"danyu",
+                imIs:"damay",
+                youIS:"dangay",
+                heIs:"dafay",
+                weIs:"danuy",
+                yallIs:"dangeen di",
+                theyIs:"danyuy"
             },
             vocab: {
                 bottle: "buutell",
@@ -265,7 +286,22 @@ const Langdata = [
                 see: "gis"
             },
             grammar: {
-                negative: "add uma to verbs, or ul(if about a thing) or unu(plural) after verb. The act of doing is expressed by adding ay to the noun like damay past tense is achieved by adding woon to the verb"
+                
+                objectMe:"ma",
+                objectYou:"la",
+                objectIt:"ko",
+                objectUs:"nu",
+                objectYall:"leen",
+                objectThem:"leen",
+                with:"ak",
+                for:"por",
+                in:"ci",
+                near:"ci wetu",
+                at:"nekk",
+                up:"suff",
+                down:"ci kow",
+                go:"dem",
+                toCommand: "when you add al to the end of the verb its a command if its an ar word and il if the verb ends in ir"
             }
         },
         week4: {
@@ -293,7 +329,7 @@ const Langdata = [
                 greet: "nuyu"
             },
             grammar: {
-                commands: "when you add al to the end of the verb its a command if its an ar word and il if the verb ends in ir"
+                negative: "add uma to verbs, or ul(if about a thing) or unu(plural) after verb. The act of doing is expressed by adding ay to the noun like damay past tense is achieved by adding woon to the verb"
             }
         },
         week5: {
@@ -322,12 +358,14 @@ const Langdata = [
 
             },
             grammar: {
-                iam: "man gi",
-                youare: "yan gi",
-                weare: "nun gi",
-                theyre: "nyun gi",
-                er: " when indicating a person is someone who does something put kat at the end of the noun. like teachER, workER, jangaleKAT,leegayKAT"
-
+             pastTense:"woon(suffix)",
+             iWill:"dinaa",
+             youWill:"dinga",
+             itWill:"dina",
+             weWill:"dinanu",
+             yallWill:"dingeen",
+             theyWill:"dinanyu",
+             er:"kat the end. like teacher = jangaleKAT"
             }
         }
     },
