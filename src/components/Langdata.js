@@ -170,20 +170,20 @@ const Langdata = [
         title: "Wolof",
 
         tips: "Ki rooted word is pertains to a person (ko ku) Li root pertains to things.(lo lou)",
-        video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
+
         week1:
         {
-
+            video: "https://www.youtube.com/watch?v=pPLIP9Ftfv4",
             grammar: {
-    
+
                 bi: " generic article",
                 ki: "refers to a person",
                 li: "refers to a thing",
                 gi: "refers to a woman",
                 wi: "refers to nature",
                 ji: "that are religous",
-                yi:"refers to plural",
-                Tips:"replace article i with u when aticle generic. Like to say who this we switch ki which refers to a person to ku. as we dont know the person and we put the article at the end so to say who is it we say ko ku"
+                yi: "refers to plural",
+                Tips: "replace article i with u when aticle generic. Like to say who this we switch ki which refers to a person to ku. as we dont know the person and we put the article at the end so to say who is it we say ko ku"
 
 
             },
@@ -201,42 +201,42 @@ const Langdata = [
                 hungry: "heef",
                 thirsty: "mar",
                 dad: "Baay",
-                mother:"yaay",
-                brother:"rakk",
-                sister:"rakk",
-                friend:"harit",
-                what:"lan",
-                which:"ban",
-                who:"kan",
-                
+                mother: "yaay",
+                brother: "rakk",
+                sister: "rakk",
+                friend: "harit",
+                what: "lan",
+                which: "ban",
+                who: "kan",
+
 
             }
         },
         week2: {
-
+            video: "https://youtu.be/RSoJhwgBpck",
             grammar: {
-                me:"man",
-                you:"yow",
-                heOrShe:"moom",
-                we:"nun",
-                yall:"yeen",
-                them:"nyoom",
-                Iam:"maan gi",
-                youIs:"yaan gi",
-                heIs:"moon gi",
-                weIs:'nun gi',
-                theyIs:"nyun gi",
-                Iam:"dama",
-                youAre:"danga",
-                heAre:"dafa",
-                weAre:"danu",
-                theyAre:"danyu",
-                imIs:"damay",
-                youIS:"dangay",
-                heIs:"dafay",
-                weIs:"danuy",
-                yallIs:"dangeen di",
-                theyIs:"danyuy"
+                me: "man",
+                you: "yow",
+                heOrShe: "moom",
+                we: "nun",
+                yall: "yeen",
+                them: "nyoom",
+                Iam: "maan gi",
+                youIs: "yaan gi",
+                heIs: "moon gi",
+                weIs: 'nun gi',
+                theyIs: "nyun gi",
+                Iam: "dama",
+                youAre: "danga",
+                heAre: "dafa",
+                weAre: "danu",
+                theyAre: "danyu",
+                imIs: "damay",
+                youIS: "dangay",
+                heIs: "dafay",
+                weIs: "danuy",
+                yallIs: "dangeen di",
+                theyIs: "danyuy"
             },
             vocab: {
                 bottle: "buutell",
@@ -286,21 +286,21 @@ const Langdata = [
                 see: "gis"
             },
             grammar: {
-                
-                objectMe:"ma",
-                objectYou:"la",
-                objectIt:"ko",
-                objectUs:"nu",
-                objectYall:"leen",
-                objectThem:"leen",
-                with:"ak",
-                for:"por",
-                in:"ci",
-                near:"ci wetu",
-                at:"nekk",
-                up:"suff",
-                down:"ci kow",
-                go:"dem",
+
+                objectMe: "ma",
+                objectYou: "la",
+                objectIt: "ko",
+                objectUs: "nu",
+                objectYall: "leen",
+                objectThem: "leen",
+                with: "ak",
+                for: "por",
+                in: "ci",
+                near: "ci wetu",
+                at: "nekk",
+                up: "suff",
+                down: "ci kow",
+                go: "dem",
                 toCommand: "when you add al to the end of the verb its a command if its an ar word and il if the verb ends in ir"
             }
         },
@@ -358,14 +358,14 @@ const Langdata = [
 
             },
             grammar: {
-             pastTense:"woon(suffix)",
-             iWill:"dinaa",
-             youWill:"dinga",
-             itWill:"dina",
-             weWill:"dinanu",
-             yallWill:"dingeen",
-             theyWill:"dinanyu",
-             er:"kat the end. like teacher = jangaleKAT"
+                pastTense: "woon(suffix)",
+                iWill: "dinaa",
+                youWill: "dinga",
+                itWill: "dina",
+                weWill: "dinanu",
+                yallWill: "dingeen",
+                theyWill: "dinanyu",
+                er: "kat the end. like teacher = jangaleKAT"
             }
         }
     },
