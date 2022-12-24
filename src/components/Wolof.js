@@ -5,6 +5,7 @@ import Langdata from "./Langdata";
 import { useState } from "react";
 
 
+
 function Wolof() {
     //we got to make arrays with the data and 
     //we are goin go to use state to go through the weeks
@@ -35,7 +36,7 @@ function Wolof() {
             grammar={grammars[idx]}
         />
 
-        <div class="btnc">
+        <div className="btnc">
 
             scroll through the weeks info
             <button onClick={next}>next</button>

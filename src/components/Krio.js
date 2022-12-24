@@ -29,9 +29,17 @@ function Krio() {
     const weekgr = [Langdata[0].week1.grammar, Langdata[0].week2.grammar, Langdata[0].week3.grammar, Langdata[0].week4.grammar, Langdata[0].week5.grammar]
     const wk = ["week 1 ", "week 2 ", "week 3 ", "week 4 ", "week 5 "]
     const videos = [Langdata[0].week1.video, Langdata[0].week2.video, Langdata[0].week3.video, Langdata[0].week4.video, Langdata[0].week5.video,]
+
+
+
     return (<>
 
+        <div className="btnc">
 
+            scroll through the weeks info
+            <button onClick={next}>next</button>
+            <button onClick={last}>back</button>
+        </div>
         <Language
             name={Langdata[0].title}
             video={videos[idx]}
@@ -39,12 +47,10 @@ function Krio() {
             grammar={weekgr[idx]}
             week={wk[idx]}
         />
-        <div class="btnc">
 
-            scroll through the weeks info
-            <button onClick={next}>next</button>
-            <button onClick={last}>back</button>
-        </div>
+
+
+
 
     </>)//so with the click evenst we change as we pass in the props 
 }

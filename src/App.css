@@ -207,7 +207,7 @@ button {
   border-radius: 12%;
   background-color: #FFDE59;
   height: 40px;
-  
+
 }
 
 
@@ -288,6 +288,26 @@ button {
 .hype {
   text-decoration: none;
   color: black;
+}
+
+
+/* draggs */
+.qcontain {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  margin: 5%;
+}
+
+.draggables {
+  background-color: grey;
+}
+
+.dig {
+  margin: 5%;
+  height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
 }
 
 @media(max-width:600px) {

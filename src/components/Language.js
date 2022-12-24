@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Drag from './drag';
 import "../App.css";
 import ReactPlayer from "react-player";
 //language will be a parent app that gets passed into the  diffrent components
@@ -77,6 +77,7 @@ function Language(props) {
               {/* we are about to print out the keys and values next to each other  */}
             </div>
           </div>
+          <Drag />
         </div>
       </div>
     </div>
