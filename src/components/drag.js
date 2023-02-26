@@ -22,6 +22,8 @@ function drag() {
                 })
             })
         })
+
+        // in react the draggable is by using the dragstart event 
         //q2
         yow.addEventListener("dragstart", () => {
             yowc.addEventListener("dragover", () => {
