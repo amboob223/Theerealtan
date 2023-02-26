@@ -16,6 +16,7 @@ import shirt from "../src/images/shirt.jpg";
 import Blog1 from "./components/blog1";
 import Blog2 from "./components/blog2";
 import Blog3 from "./components/blog3";
+import Blog4 from "./components/blog4";
 import Blog from "./components/Blog";
 
 
@@ -33,16 +34,17 @@ function App() {
           <Route path="/kreyol" element={<Kreyol />} />
           <Route path="/yoruba" element={<Yoruba />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog1" element={<Blog1/>}/>
-          <Route path="/blog2" element={<Blog2/>}/>
-          <Route path="/blog3" element={<Blog3/>}/>
-          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/blog1" element={<Blog1 />} />
+          <Route path="/blog2" element={<Blog2 />} />
+          <Route path="/blog3" element={<Blog3 />} />
+          <Route path="/blog4" element={<Blog4 />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/krio" element={<Krio />} />
           {/* <Route path='/privacy-policy' component={() => {
             window.location.href = 'https://example.com/1234';
             return null;
           }} /> */}
-          
+
           {/*<Route path="/" element={<Merchform/>}/> */}
         </Routes>
       </Router>
@@ -115,6 +117,9 @@ function Home() {
 
 
           </td>
+        </tr>
+        <tr>
+          Check us out in the Metaverse. come to the newly built Wocktan school of langauges in the metaverse of Decentraland we are located at -60-18
         </tr>
       </table>
     </div>
