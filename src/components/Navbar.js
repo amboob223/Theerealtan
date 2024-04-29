@@ -79,6 +79,14 @@ function Navbar() {
                         Contacts
                     </Link>
                 </li>
+                <li>
+                    <Link
+                        to="/travel"
+                        className='navlink'
+                        >
+                            Travel
+                        </Link>
+                </li>
 
             </ul>
 

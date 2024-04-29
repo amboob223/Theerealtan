@@ -18,7 +18,7 @@ import Blog2 from "./components/blog2";
 import Blog3 from "./components/blog3";
 import Blog4 from "./components/blog4";
 import Blog from "./components/Blog";
-
+import Travel from "./components/Travel";
 
 function App() {
   return (
@@ -40,6 +40,7 @@ function App() {
           <Route path="/blog4" element={<Blog4 />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/krio" element={<Krio />} />
+          <Route path="travel" element={<Travel/>}/>
           {/* <Route path='/privacy-policy' component={() => {
             window.location.href = 'https://example.com/1234';
             return null;
