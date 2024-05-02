@@ -6,13 +6,13 @@ import {Link} from "react-router-dom";
 function Cardbone(props) {
   return (
 <div>
-<div class="blog-container">
-        <div class="blog-box">
-            <div class="blog-img">
+<div className="blog-container">
+        <div className="blog-box">
+            <div className="blog-img">
                 <img src={props.img} alt="logo"/>
             </div>
 
-            <div class="blog-text">
+            <div className="blog-text">
                 <span>{props.date}</span>
                 <span>{props.author}</span>
                 <h1 className='blog-title'>{props.title}</h1>

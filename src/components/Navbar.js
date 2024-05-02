@@ -1,97 +1,67 @@
-import React from 'react'
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import Dropdown from './Dropdown';
-import lg from "../images/wocktan.png"
-import "../App.css"
-function Navbar() {
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import Dropdown from './Dropdown'; // Assuming you have a Dropdown component defined
 
-    //we have to make state here to keep track of the dropdown
-    const [dropdown, setDropdown] = useState(false)
+import lg from '../images/wocktan.png';
+import '../App.css';
 
-    //we now make the state methods that corresppond to some type of event
-    function onMouseOver() {
-        setDropdown(true)
-    }//when this is true we render the dropdown component
+function MyNavbar() {
+    // State for managing dropdown visibility
+    const [dropdown, setDropdown] = useState(false);
 
-    const mousedip = () => {
-        setDropdown(false)
-    }
+    // Event handler for mouse over
+    const onMouseOver = () => {
+        setDropdown(true);
+    };
+
+    // Event handler for mouse leave
+    const onMouseLeave = () => {
+        setDropdown(false);
+    };
 
     return (
-        <nav className="navc">
-            <img src={lg} alt="logo" className="navpic" />
-            <ul className="nav">
-                <li>
-                    <Link
-                        to="/"
-                        className='navlink'
-                    >
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link
-                        to="/about"
-                        className="navlink"
-                    >
-                        About
-                    </Link>
-                </li>
-                <li
-                    onMouseLeave={mousedip}>
-                    <Link
-
-                        className="navlink"
-                        onClick={onMouseOver}
-                    >
-                        Language
-
-                    </Link>
-                    {dropdown && <Dropdown />}
-                    {/* // this means if the state is true then do this here */}
-                </li>
-                <li>
-                    <Link
-                        to="/blog"
-                        className='navlink'
-                    >
-                        Blog
-                    </Link>
-                </li>
-                <li>
-                    {/* <Link
-                        to="/shop"
-                        className="navlink"
-                    > */}
-                    <a href="https://wocktancomshop.creator-spring.com/" className="navlink">
-                        Shop
-                    </a>
-
-                    {/* </Link> */}
-                </li>
-
-                <li>
-                    <Link
-                        to="/contact"
-                        className="navlink"
-                    >
-                        Contacts
-                    </Link>
-                </li>
-                <li>
-                    <Link
-                        to="/travel"
-                        className='navlink'
+        <Navbar expand="lg" className="navc">
+            <Container>
+                <Navbar.Brand as={Link} to="/">
+                    <img src={lg} alt="logo" className="navpic" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                        <Nav.Link as={Link} to="/" className="navlink">
+                            Home
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/about" className="navlink">
+                            About
+                        </Nav.Link>
+                        <NavDropdown
+                            title="Language"
+                            id="basic-nav-dropdown"
+                            onMouseOver={onMouseOver}
+                            onMouseLeave={onMouseLeave}
+                            show={dropdown}
                         >
+                              <Dropdown /> 
+                          
+                        </NavDropdown>
+                        <Nav.Link as={Link} to="/blog" className="navlink">
+                            Blog
+                        </Nav.Link>
+                        <Nav.Link href="https://wocktancomshop.creator-spring.com/" className="navlink">
+                            Shop
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/contact" className="navlink">
+                            Contacts
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/travel" className="navlink">
                             Travel
-                        </Link>
-                </li>
-
-            </ul>
-
-        </nav>
-    )
+                        </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    );
 }
 
-export default Navbar;
+export default MyNavbar;

@@ -56,49 +56,39 @@ function App() {
 }
 
 function Home() {
-  return (<>
+  return (
     <div className='table'>
-
-      <table class="bounce">
-        <td className='welc'>
+      <table className="bounce">
+        <tbody>
           <tr>
-            <h1> Welcome to the Wocktan</h1>
+            <td>
+              <h1>Welcome to the Wocktan</h1>
+            </td>
           </tr>
           <tr>
-            <h3>Wocktan is the best way to learn an African language by...</h3>
-
-            <ul>
-              <li>Video Lessons</li>
-              <li>Weekly Vocab and Grammar</li>
-              <li>Responsive speakers(wockers)</li>
-              <li>Teaching and become a wocker.</li>
-            </ul>
+            <td>
+              <h3>Wocktan is the best way to learn an African language by...</h3>
+              <ul>
+                <li>Video Lessons</li>
+                <li>Weekly Vocab and Grammar</li>
+                <li>Responsive speakers(wockers)</li>
+                <li>Teaching and become a wocker.</li>
+              </ul>
+            </td>
+            <td>
+              <div className='shopt'>
+                <h2 id="scrolhead">Choose a language.</h2>
+                <Scroller />
+              </div>
+            </td>
           </tr>
-        </td>
-        <td >
-          <div className='shopt' >
-
-
-
-
-            <tr ><h2 id="scrolhead">Choose a language.</h2></tr>
-            <tr>
-              <Scroller />
-            </tr>
-          </div>
-        </td>
-
-        <tr className="long">
-          <td>
-
-            <h1>Wocktan Blog</h1>
-            <h2>Why is it important to learn an african language?</h2>
-            <p>It is important to learn a diffrent language for many reasons. If you know another language you can do alot of diffrent things.
-              If you want to do business in diffrent countries or meet people from diffent countries it would be benefical to know another language. Even If you cant speak it properly at first if you try people will recieve you diffrently and favorably.
-            </p>
-
-          </td>
-          <td>
+          <tr className="long">
+            <td >
+              <h1>Wocktan Blog</h1>
+              <h2>Why is it important to learn an African language?</h2>
+              <p>It is important to learn a different language for many reasons. If you know another language, you can do a lot of different things. If you want to do business in different countries or meet people from different countries, it would be beneficial to know another language. Even if you can't speak it properly at first, if you try, people will receive you differently and favorably.</p>
+            </td>
+            <td>
             <div className='shopt'>
 
 
@@ -118,13 +108,16 @@ function Home() {
 
 
           </td>
-        </tr>
-        <tr>
-          Check us out in the Metaverse. come to the newly built Wocktan school of langauges in the metaverse of Decentraland we are located at -60-18
-        </tr>
+          </tr>
+          <tr>
+            <td colSpan="2">
+              <p>Check us out in the Metaverse. Come to the newly built Wocktan school of languages in the metaverse of Decentraland. We are located at -60-18.</p>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
-
-  </>)
+  );
 }
+
 export default App;

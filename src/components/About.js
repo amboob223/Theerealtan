@@ -33,7 +33,7 @@ function About() {
         We will contact you to about which language you want to learn and we will connect you let you choose a wocker to practice with.
         Wocker service requires a $5 a month subscription fee which gives you full access to wocker scheduling and all the videos, notes,grammar and quiz material.
       </p>
-      <div class="abtbtn">
+      <div className="abtbtn">
         <button>
           <Link
             to="/contact"

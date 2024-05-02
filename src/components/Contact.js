@@ -1,134 +1,118 @@
-import React,{useState} from 'react'
-import "../App.css"
-import axios from 'axios'
+import React, { useState } from 'react';
+import '../App.css';
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    fullname: '',
+    email: '',
+    phone: '',
+    beaWock: false,
+    getaWock: false,
+  });
 
-   const [formData,setFormData] = useState({
-    fullname:"",
-    email:"",
-    phone:"",
-    beaWock:false,
-    getaWock:false
-   })
+  function formHandler(event) {
+    const { name, type, checked, value } = event.target;
 
-  
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: type === 'checkbox' ? checked : value,
+    }));
+  }
 
-   function formHandler(event){
-     const {name,type,checked,value} = event.target
+  const submitHandler = async (event) => {
+event.preventDefault();
+    try {
+       console.log(formData);
 
-     setFormData(formData =>{
-      return {
-            ...formData,
-         [name]:type === "checkbox" ? checked : value 
-      }}) // notice how we used the brackets here
-     
-   }
+    const response = await fetch('http://localhost:5000/wocktan', {
+      method: 'POST',
+      headers: { 'Content-type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
 
+    const data = await response.json();
+    console.log(data);
 
+    setFormData({
+      fullname: '',
+      email: '',
+      phone: '',
+      beaWock: false,
+      getaWock: false,
+    });
 
-
-
-   const submitHandler = (event) =>{
-    event.preventDefault()
-     console.log(formData)
-
-     //this is the data we use to post through axios so we got to make an object to pass in the request and then we do a then with the response and then we use that in a callbackfunction and rest the the state of every thing 
-     const data ={
-      Fullname:formData.fullname,
-      Email:formData.email,
-      Phone:formData.phone,
-      BeaWock:formData.beaWock,
-      GetaWock:formData.getaWock
-     }
-// after we make the object that connects our request to state as values and then we pass in below and in the then callback we reinitialize the state of everything
-     axios.post("https://sheet.best/api/sheets/b902b852-a3e6-49b8-81c9-debc53a29729",data).then(
-      (response) =>{
-        console.log(response)
-        //clearing fields
-      
-      }
-     )   
-        setFormData({ fullname:"",
-        email:"",
-        phone:"",
-        beaWock:false,
-        getaWock:false})
-      alert("this was sucessful. We will contact You in the next three business days with info on Becoming or scheduling a Wocker")
-   } // here is where we will be making the call to the google sheets
-
+    alert(
+      'This was successful. We will contact you in the next three business days with info on becoming or scheduling a Wocker.'
+    );
+    } catch (error) {
+      console.error(error.message)
+      console.log("No bueno")
+    }
+    
+   
+  };
 
   return (
     <div className="form">
       <form onSubmit={submitHandler}>
-        <label htmlFor="fullname" className='forminput'>
+        <label htmlFor="fullname" className="forminput">
           Fullname:
-          <input 
+          <input
             type="text"
             placeholder="fullname"
             id="fullname"
             onChange={formHandler}
-            
-            value={formData.fullname} 
-            name="fullname" // we got to put the name attribute for it to show
-            />
+            value={formData.fullname}
+            name="fullname"
+          />
         </label>
-        <label htmlFor= "email" className="forminput">
-            Email:
-         <input 
+        <label htmlFor="email" className="forminput">
+          Email:
+          <input
             type="text"
             placeholder="email"
             id="email"
             onChange={formHandler}
-            
-            value={formData.email} 
+            value={formData.email}
             name="email"
-            />
-      </label>
-      <label htmlFor="phone" className="forminput">
+          />
+        </label>
+        <label htmlFor="phone" className="forminput">
           Phone:
-         <input 
+          <input
             type="text"
             placeholder="phone"
             id="phone"
             onChange={formHandler}
-            
-            value={formData.phone} 
+            value={formData.phone}
             name="phone"
-            />
-      </label>
+          />
+        </label>
 
-      <label htmlFor="beawock" className="forminput">
-Would you like to be a wocker?
-        <input 
+        <label htmlFor="beawock" className="forminput">
+          Would you like to be a wocker?
+          <input
             type="checkbox"
-            placeholder="beawock"
             id="beawock"
             onChange={formHandler}
-           
-            checked={formData.beaWock} 
+            checked={formData.beaWock}
             name="beaWock"
-            />
+          />
         </label>
         <label htmlFor="getawock" className="forminput">
           Would you like to get a Wocker?
-          <input 
+          <input
             type="checkbox"
-            placeholder="getawock"
             id="getawock"
             onChange={formHandler}
-           
-            checked={formData.getaWock} 
+            checked={formData.getaWock}
             name="getaWock"
-            />
-         </label>
-        <button>
-          submit
-        </button>
-    </form>
+          />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-    
-  )
+  );
 }
 
-export default Contact
+export default Contact;

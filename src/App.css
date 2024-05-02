@@ -18,6 +18,9 @@ p {
 
 body {
   background-color: #f8f0cc;
+  padding: 0%;
+  margin: 0%;
+
 }
 
 .table {
@@ -107,10 +110,18 @@ body {
 }
 
 
-.navlink {
+.navlink,
+.navlink:hover,
+.navlink:focus,
+.navlink:active {
   text-decoration: none;
   color: #FFDE59;
 }
+
+.nav-link {
+  color: #FFDE59 !important; /* Adding !important to ensure it overrides other styles */
+}
+
 
 .navlink:hover {
   color: blue;
@@ -130,7 +141,7 @@ body {
   border-radius: 12%;
   background-color: #FFDE59;
   ;
-}
+} */
 
 #scrolhead {
   display: flex;
@@ -279,9 +290,43 @@ button {
 
 }
 
+
+
+.table {
+  display: flex;
+  justify-content: center;
+  /* // stops bleasd over from table */
+  margin-left: 0%; 
+  
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+
+tr>td{
+  width:50%;
+  justify-self: left;
+}
+
+.long,
+.long td {
+  width: 50%;
+}
+.long,
+.long p{
+width:50%;
+}
+
+
+tbody>tr{
+  width: 50%;
+}
+
+
 .shopt {
-  text-align: center;
-  margin-left: 10%;
+  text-align:center;
+  justify-self: center;
 
 }
 
@@ -309,7 +354,9 @@ button {
   width: 200px;
   background-color: whitesmoke;
 }
-
+/* #basic-nav-dropdown{
+  display: block;
+} */
 @media(max-width:600px) {
   .welc {
     display: none;

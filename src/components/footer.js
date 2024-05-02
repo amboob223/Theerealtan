@@ -2,10 +2,10 @@ import React from "react";
 import "../App.css";
 
 function Footer() {
-    return (<div class="footer">
-        <h3>
-            Powered by Medumeta.com
-        </h3>
+    return (<div className="footer">
+        <small>
+            Powered by ©Econsensus.com
+        </small>
     </div>)
 }
 
