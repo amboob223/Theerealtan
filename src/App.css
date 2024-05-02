@@ -313,15 +313,16 @@ tr>td{
 .long td {
   width: 50%;
 }
-.long,
+/* .long,
 .long p{
 width:50%;
-}
+} */
 
 
 tbody>tr{
-  width: 50%;
+  width:50%;
 }
+
 
 
 .shopt {
@@ -357,13 +358,19 @@ tbody>tr{
 /* #basic-nav-dropdown{
   display: block;
 } */
+
+
+.navlink {
+  font-size: 30px; /* Adjust the font size as needed */
+}
+
 @media(max-width:600px) {
   .welc {
     display: none;
   }
-
+/* 
   .long {
     display: none;
-  }
+  } */
 
 }
