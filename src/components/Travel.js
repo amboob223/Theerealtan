@@ -31,7 +31,8 @@ const [compShow,setCompShow] = useState(false);
  const [showReviews, setShowReviews] = useState(false); // Track if carousel has been clicked
  const [transfer,setTransfer] = useState(false)
 const [writestuff,setWriteStuff] = useState(false);
-    
+
+      
 
 const ERC_abi = useMemo(() => [
 	{
@@ -286,61 +287,6 @@ const cnc = () =>{
 };
 
 
- 
-const write = async () => {
-    try {
-        if (!selectedAddress || selectedAddress === '') {
-            alert("Please choose an address.");
-            console.error("Please provide a valid selectedAddress.");
-            return;
-        }
-
-        const provider = new ethers.JsonRpcProvider("https://sepolia.infura.io/v3/4c2923555eab4c96b92c280bfffa8454");
-        const privateKey = "5ccb69e0e14929628bdbdd4fbb1159f730f55c26eea04f8f370e6664546a5786";
-        const wallet = new ethers.Wallet(privateKey, provider);
-
-        // Sending Ether to the selected address
-        const tx = {
-            to: selectedAddress,
-            value: ethers.parseEther("0.0025")
-
-
-        };
-
-        alert("you have paid and you review is coming")
-        const transaction = await wallet.sendTransaction(tx);
-        await transaction.wait();
-
-        // Adding review to the blockchain
-        const contract = new ethers.Contract(contractAddress, ERC_abi, wallet);
-        const addReviewTx = await contract.addReview(selectedAddress, review);
-        await addReviewTx.wait();
-
-        // Alert and log success
-        console.log("Transaction successful:", transaction);
-        console.log("Review added to the blockchain:", addReviewTx);
-        alert("The review has been added to the blockchain. You're good to go!");
-        console.log("Review:", review);
-
-    } catch (error) {
-        console.error("An error occurred:", error.message);
-    }
-}
-
-
-   // Navigate to the next address
-  const next = () => {
-    setIndex((index + 1) % addresses.length);
-  };
-
-  // Navigate to the previous address
-  const last = () => {
-    setIndex((index - 1 + addresses.length) % addresses.length);
-  };
-
-  console.log(last)
-  console.log(next)
-
 
 
   const handleAddressClick = async(address) => {
@@ -395,18 +341,104 @@ const showReviewsOnClick = () => {
 
 
 
-const Work = () =>{
-      
+const Work  =React.memo(() => {
+const [submitted, setSubmitted] = useState(false);
+ 
+    const [dropped, setDropped] = useState(false);
+    const [picked, setPicked] = useState(false);
+    
+    const dropedoff = () => {
+      setDropped(true);
+    };
 
-  return(<div>
-      {/* this button requores a the user to hit something  */}
-      <button>traveler</button> 
-      {/* this button requires the traveler to hit something  */}
-      <button>user</button> 
+    const pickedUp = () => {
+      setPicked(true);
+    };
+      const handleReviewChange = (e) => {
+        e.preventDefault(); // Prevent default form submission behavior
 
-      
-  </div>)
+    console.log("Review changed:", e.target.value);
+    setReview(e.target.value);
+  };
+ 
+const write = async (e) => {
+  e.preventDefault(); // Prevent default form submission behavior
+
+    try {
+        if (!selectedAddress || selectedAddress === '') {
+            alert("Please choose an address.");
+            console.error("Please provide a valid selectedAddress.");
+            return;
+        }
+
+        const provider = new ethers.JsonRpcProvider("https://sepolia.infura.io/v3/4c2923555eab4c96b92c280bfffa8454");
+        const privateKey = "5ccb69e0e14929628bdbdd4fbb1159f730f55c26eea04f8f370e6664546a5786";
+        const wallet = new ethers.Wallet(privateKey, provider);
+
+        // Sending Ether to the selected address
+        const tx = {
+            to: selectedAddress,
+            value: ethers.parseEther("0.0025")
+
+
+        };
+
+        alert("you have paid and you review is coming")
+        const transaction = await wallet.sendTransaction(tx);
+        await transaction.wait();
+
+        // Adding review to the blockchain
+        const contract = new ethers.Contract(contractAddress, ERC_abi, wallet);
+        const addReviewTx = await contract.addReview(selectedAddress, review);
+        await addReviewTx.wait();
+
+        // Alert and log success
+        console.log("Transaction successful:", transaction);
+        console.log("Review added to the blockchain:", addReviewTx);
+        alert("The review has been added to the blockchain. You're good to go!");
+        console.log("Review:", review);
+
+    } catch (error) {
+        console.error("An error occurred:", error.message);
+    }
 }
+
+
+   // Navigate to the next address
+  const next = () => {
+    setIndex((index + 1) % addresses.length);
+  };
+
+  // Navigate to the previous address
+  const last = () => {
+    setIndex((index - 1 + addresses.length) % addresses.length);
+  };
+
+  console.log(last)
+  console.log(next)
+
+console.log("Render: dropped", dropped);
+  console.log("Render: picked", picked);
+  console.log("Render: review", review);
+
+  return (
+    <div>
+      <p>Did you (traveler) receive the bag? If so, hit the traveler button</p>
+      <button onClick={dropedoff} >Traveler</button>
+      <p>If you (user) dropped off the bag, hit the user button</p>
+      <button onClick={pickedUp} disabled={picked} >User</button>
+    {dropped && picked && (
+        <div>
+          <input value={review} onChange={handleReviewChange}  /> {/* Bind input to review state */}
+          <br />
+          {connectedAddress && <p>You are connected</p>}
+          <br />
+          <button onClick={write} disabled={submitted}>Write to chain</button>
+        </div>
+      )}
+    </div>
+  );
+});
 
     const play = async() =>{
       //change the state so we can see the write stuff at some point 
@@ -448,13 +480,15 @@ return (
           // I want to get rid of the signup butrton by this point 
           isConnected && writestuff&&  (
             <div>
-              <br>
-               {/* // when both conditions of work are met then we can see this part  */}
+              <div>
+                      {/* // when both conditions of work are met then we can see this part  */}
                <Work/> 
 
-              </br>
+              </div>
+         
              
-              <input value={review} onChange={(e) => setReview(e.target.value)} />
+             
+              {/* <input value={review} onChange={(e) => setReview(e.target.value)} />
               <br />
               {(connectedAddress) &&
                 <p>You are connected</p>
@@ -462,7 +496,7 @@ return (
               <br />
               
               <button onClick={write}>Write to chain</button>
-              
+               */}
             </div>
           )}
         </div>
