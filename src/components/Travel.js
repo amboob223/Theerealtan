@@ -7,6 +7,17 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Signup from "./Signup";
 import axios from "axios";
 
+
+const play = (_connectedAddress,_selectedAddress) =>{
+      
+
+  return(<div>
+      <button onClick={work()}>work</button>
+  </div>)
+}
+
+
+
 const Travel = () => {
   // state variables
   const [connectedAddress, setConnectedAddress] = useState('');
@@ -18,11 +29,12 @@ const Travel = () => {
   const [selectedAddress,setSelectedAddress] = useState("")
   const [ipfsData, setIpfsData] = useState([]);
 const [cn,setcn] = useState(false)
+
   const [sign,setSign] = useState(false);
 const [compShow,setCompShow] = useState(false);
  const [showReviews, setShowReviews] = useState(false); // Track if carousel has been clicked
  const [transfer,setTransfer] = useState(false)
-
+const [writestuff,setWriteStuff] = useState(false);
     
 
 const ERC_abi = useMemo(() => [
@@ -366,8 +378,16 @@ const showReviewsOnClick = () => {
     setShowReviews(true); // Set to true when carousel is clicked
   };
 
- const trans = ()=> {
+   const trans = ()=> {
   try {
+//then some kind of way the connected address says that droped of the bag
+      //the selected address must say they recieved it 
+
+
+      //a way for the user to confirm its droped off and the traveler to confirn 
+
+
+      // then they see the all the write stuff and pay.
 
      setTransfer(true)
   } catch (error) {
@@ -375,6 +395,20 @@ const showReviewsOnClick = () => {
   }
      
     }
+
+    const play = async() =>{
+      //change the state so we can see the write stuff at some point 
+      try {
+        console.log(connectedAddress)
+        console.log(selectedAddress)
+
+        //maybe some kind of boolean where after the connected adderss hits play and then the selected hit a button then we see the write stuff so im thinking we make a component fro the user to hit a buttone and the traveler to hit a bbutton and when both of them are true we see the write stuff 
+
+        setWriteStuff(true)
+      } catch (error) {
+        console.error(error.message)
+      } 
+    }// here is where the real transactoion will take place so it should take two things the connected address and the selected onew 
 
 return (
   <div className="form-container" style={{ display: "flex", justifyContent: "center" }}>
@@ -390,16 +424,17 @@ return (
           {!transfer&& !sign &&
             <button  onClick={trans}>transfer</button>
             // in this part the logic of a transaction 
-
-
-
-
 }
-          {!sign && transfer&& <button onClick={connectMetamask} title='Connect to MetaMask'>Connect</button>}
+
+          {!sign && transfer&& <button onClick={connectMetamask} title='Connect to MetaMask'>Connect</button>  }
+
+
+{isConnected && <button onClick={play}>Transact</button>  }
 
           {
+         
           // I want to get rid of the signup butrton by this point 
-          isConnected && (
+          isConnected && writestuff &&  (
             <div>
               <input value={review} onChange={(e) => setReview(e.target.value)} />
               <br />
@@ -407,7 +442,9 @@ return (
                 <p>You are connected</p>
               }
               <br />
+              
               <button onClick={write}>Write to chain</button>
+              
             </div>
           )}
         </div>
@@ -426,7 +463,7 @@ handleAddressClick={handleAddressClick}
   onClick={showReviewsOnClick}
 />
  
-          <h2>Review This Address</h2>
+          <h2>Review This Traveler</h2>
           {selectedAddress}
           <h2>Reviews:</h2>
           <ul>
