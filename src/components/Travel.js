@@ -8,13 +8,9 @@ import Signup from "./Signup";
 import axios from "axios";
 
 
-const play = (_connectedAddress,_selectedAddress) =>{
-      
 
-  return(<div>
-      <button onClick={work()}>work</button>
-  </div>)
-}
+
+
 
 
 
@@ -396,6 +392,22 @@ const showReviewsOnClick = () => {
      
     }
 
+
+
+
+const Work = () =>{
+      
+
+  return(<div>
+      {/* this button requores a the user to hit something  */}
+      <button>traveler</button> 
+      {/* this button requires the traveler to hit something  */}
+      <button>user</button> 
+
+      
+  </div>)
+}
+
     const play = async() =>{
       //change the state so we can see the write stuff at some point 
       try {
@@ -403,8 +415,8 @@ const showReviewsOnClick = () => {
         console.log(selectedAddress)
 
         //maybe some kind of boolean where after the connected adderss hits play and then the selected hit a button then we see the write stuff so im thinking we make a component fro the user to hit a buttone and the traveler to hit a bbutton and when both of them are true we see the write stuff 
-
-        setWriteStuff(true)
+   
+        setWriteStuff(true) // this is what show the shit 
       } catch (error) {
         console.error(error.message)
       } 
@@ -434,8 +446,14 @@ return (
           {
          
           // I want to get rid of the signup butrton by this point 
-          isConnected && writestuff &&  (
+          isConnected && writestuff&&  (
             <div>
+              <br>
+               {/* // when both conditions of work are met then we can see this part  */}
+               <Work/> 
+
+              </br>
+             
               <input value={review} onChange={(e) => setReview(e.target.value)} />
               <br />
               {(connectedAddress) &&
