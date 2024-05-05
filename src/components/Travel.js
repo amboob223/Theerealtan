@@ -339,28 +339,9 @@ const showReviewsOnClick = () => {
     }
 
 
-
-
-const Work  =React.memo(() => {
-const [submitted, setSubmitted] = useState(false);
- 
-    const [dropped, setDropped] = useState(false);
+  const [dropped, setDropped] = useState(false);
     const [picked, setPicked] = useState(false);
     
-    const dropedoff = () => {
-      setDropped(true);
-    };
-
-    const pickedUp = () => {
-      setPicked(true);
-    };
-      const handleReviewChange = (e) => {
-        e.preventDefault(); // Prevent default form submission behavior
-
-    console.log("Review changed:", e.target.value);
-    setReview(e.target.value);
-  };
- 
 const write = async (e) => {
   e.preventDefault(); // Prevent default form submission behavior
 
@@ -403,6 +384,72 @@ const write = async (e) => {
     }
 }
 
+const Work  =() => {
+
+ 
+  
+    const dropedoff = () => {
+      setDropped(true);
+    };
+
+    const pickedUp = () => {
+      setPicked(true);
+    };
+  
+  
+    const handleReviewChange = (e) => {
+      e.preventDefault()
+      try {
+          console.log("Review changed:", e.target.value);
+    setReview(e.target.value);
+      } catch (error) {
+        console.error(error.message)
+      }
+  
+  };
+ 
+// const write = async (e) => {
+//   e.preventDefault(); // Prevent default form submission behavior
+
+//     try {
+//         if (!selectedAddress || selectedAddress === '') {
+//             alert("Please choose an address.");
+//             console.error("Please provide a valid selectedAddress.");
+//             return;
+//         }
+
+//         const provider = new ethers.JsonRpcProvider("https://sepolia.infura.io/v3/4c2923555eab4c96b92c280bfffa8454");
+//         const privateKey = "5ccb69e0e14929628bdbdd4fbb1159f730f55c26eea04f8f370e6664546a5786";
+//         const wallet = new ethers.Wallet(privateKey, provider);
+
+//         // Sending Ether to the selected address
+//         const tx = {
+//             to: selectedAddress,
+//             value: ethers.parseEther("0.0025")
+
+
+//         };
+
+//         alert("you have paid and you review is coming")
+//         const transaction = await wallet.sendTransaction(tx);
+//         await transaction.wait();
+
+//         // Adding review to the blockchain
+//         const contract = new ethers.Contract(contractAddress, ERC_abi, wallet);
+//         const addReviewTx = await contract.addReview(selectedAddress, review);
+//         await addReviewTx.wait();
+
+//         // Alert and log success
+//         console.log("Transaction successful:", transaction);
+//         console.log("Review added to the blockchain:", addReviewTx);
+//         alert("The review has been added to the blockchain. You're good to go!");
+//         console.log("Review:", review);
+
+//     } catch (error) {
+//         console.error("An error occurred:", error.message);
+//     }
+// }
+
 
    // Navigate to the next address
   const next = () => {
@@ -426,19 +473,22 @@ console.log("Render: dropped", dropped);
       <p>Did you (traveler) receive the bag? If so, hit the traveler button</p>
       <button onClick={dropedoff} >Traveler</button>
       <p>If you (user) dropped off the bag, hit the user button</p>
-      <button onClick={pickedUp} disabled={picked} >User</button>
-    {dropped && picked && (
-        <div>
-          <input value={review} onChange={handleReviewChange}  /> {/* Bind input to review state */}
-          <br />
-          {connectedAddress && <p>You are connected</p>}
-          <br />
-          <button onClick={write} disabled={submitted}>Write to chain</button>
-        </div>
-      )}
+      <button onClick={pickedUp} >User</button>
+    {
+    // dropped && picked && (
+    //     <div>
+    //       <input value={review} onChange={handleReviewChange}  /> {/* Bind input to review state */}
+    //       <br />
+    //       {connectedAddress && <p>You are connected</p>}
+    //       <br />
+    //       <button onClick={write}>Write to chain</button>
+    //     </div>
+
+    //   )
+      }
     </div>
   );
-});
+};
 
     const play = async() =>{
       //change the state so we can see the write stuff at some point 
@@ -486,17 +536,21 @@ return (
 
               </div>
          
-             
-             
-              {/* <input value={review} onChange={(e) => setReview(e.target.value)} />
-              <br />
-              {(connectedAddress) &&
-                <p>You are connected</p>
-              }
-              <br />
-              
+            {dropped && picked && (
+  <div>
+    <input
+      value={review}
+      onChange={(e) => setReview(e.target.value)}
+      placeholder="Enter your review"
+    />
+    <br />
+    {connectedAddress && <p>You are connected</p>}
+    <br />
+  </div>
+)}
+
               <button onClick={write}>Write to chain</button>
-               */}
+               
             </div>
           )}
         </div>
