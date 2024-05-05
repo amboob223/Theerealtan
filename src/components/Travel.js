@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CarouselFadeExample from '../components/CarouselFadeExample';
-import { BrowserRouter as Router } from 'react-router-dom';
+
 import Signup from "./Signup";
 import axios from "axios";
 
@@ -322,14 +322,7 @@ const showReviewsOnClick = () => {
 
    const trans = ()=> {
   try {
-//then some kind of way the connected address says that droped of the bag
-      //the selected address must say they recieved it 
 
-
-      //a way for the user to confirm its droped off and the traveler to confirn 
-
-
-      // then they see the all the write stuff and pay.
 
      setTransfer(true)
   } catch (error) {
@@ -408,50 +401,6 @@ const Work  =() => {
   
   };
  
-// const write = async (e) => {
-//   e.preventDefault(); // Prevent default form submission behavior
-
-//     try {
-//         if (!selectedAddress || selectedAddress === '') {
-//             alert("Please choose an address.");
-//             console.error("Please provide a valid selectedAddress.");
-//             return;
-//         }
-
-//         const provider = new ethers.JsonRpcProvider("https://sepolia.infura.io/v3/4c2923555eab4c96b92c280bfffa8454");
-//         const privateKey = "5ccb69e0e14929628bdbdd4fbb1159f730f55c26eea04f8f370e6664546a5786";
-//         const wallet = new ethers.Wallet(privateKey, provider);
-
-//         // Sending Ether to the selected address
-//         const tx = {
-//             to: selectedAddress,
-//             value: ethers.parseEther("0.0025")
-
-
-//         };
-
-//         alert("you have paid and you review is coming")
-//         const transaction = await wallet.sendTransaction(tx);
-//         await transaction.wait();
-
-//         // Adding review to the blockchain
-//         const contract = new ethers.Contract(contractAddress, ERC_abi, wallet);
-//         const addReviewTx = await contract.addReview(selectedAddress, review);
-//         await addReviewTx.wait();
-
-//         // Alert and log success
-//         console.log("Transaction successful:", transaction);
-//         console.log("Review added to the blockchain:", addReviewTx);
-//         alert("The review has been added to the blockchain. You're good to go!");
-//         console.log("Review:", review);
-
-//     } catch (error) {
-//         console.error("An error occurred:", error.message);
-//     }
-// }
-
-
-   // Navigate to the next address
   const next = () => {
     setIndex((index + 1) % addresses.length);
   };
@@ -470,22 +419,11 @@ console.log("Render: dropped", dropped);
 
   return (
     <div>
-      <p>Did you (traveler) receive the bag? If so, hit the traveler button</p>
-      <button onClick={dropedoff} >Traveler</button>
-      <p>If you (user) dropped off the bag, hit the user button</p>
-      <button onClick={pickedUp} >User</button>
-    {
-    // dropped && picked && (
-    //     <div>
-    //       <input value={review} onChange={handleReviewChange}  /> {/* Bind input to review state */}
-    //       <br />
-    //       {connectedAddress && <p>You are connected</p>}
-    //       <br />
-    //       <button onClick={write}>Write to chain</button>
-    //     </div>
-
-    //   )
-      }
+      <button onClick={dropedoff} >Traveler Recieved</button>
+      <p>Did you traveler receive the bag?</p>
+      <button onClick={pickedUp} >User Recieved</button>
+      <p>Did user recieve bag after travel?</p>
+  
     </div>
   );
 };
@@ -516,14 +454,14 @@ return (
             </div>
           }
           {!transfer&& !sign &&
-            <button  onClick={trans}>transfer</button>
+            <button  onClick={trans}>start</button>
             // in this part the logic of a transaction 
 }
 
-          {!sign && transfer&& <button onClick={connectMetamask} title='Connect to MetaMask'>Connect</button>  }
+          {!sign && transfer&& !compShow && <button onClick={connectMetamask} title='Connect to MetaMask'>Connect</button>  }
 
 
-{isConnected && <button onClick={play}>Transact</button>  }
+{isConnected && !writestuff&& <button onClick={play}>Transact</button>  }
 
           {
          
@@ -531,8 +469,7 @@ return (
           isConnected && writestuff&&  (
             <div>
               <div>
-                      {/* // when both conditions of work are met then we can see this part  */}
-               <Work/> 
+                 <Work/> 
 
               </div>
          
